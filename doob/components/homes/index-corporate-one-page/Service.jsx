@@ -1,5 +1,5 @@
-import { services3 } from "@/data/service";
 import React from "react";
+import { serviciosPrincipales, serviciosComplementarios } from "@/data/service";
 
 export default function Service() {
   return (
@@ -8,6 +8,7 @@ export default function Service() {
       id="service"
     >
       <div className="container">
+        {/* ====== Servicios Principales ====== */}
         <div className="row">
           <div className="col-lg-12">
             <div
@@ -16,15 +17,15 @@ export default function Service() {
               data-sal-duration={700}
               data-sal-delay={100}
             >
-              <h2 className="title w-600 mb--20">Services provide for you.</h2>
+              <h2 className="title w-600 mb--20">Servicios Principales</h2>
               <p className="description b1">
-                There are many variations of passages.
+                Nuestros servicios clave para la protección y fortalecimiento de su organización.
               </p>
             </div>
           </div>
         </div>
         <div className="row g-5 service-wrapper">
-          {services3.map((service, index) => (
+          {serviciosPrincipales.map((service, index) => (
             <div
               key={index}
               className="col-lg-4 col-md-6 col-sm-6 col-12"
@@ -37,9 +38,47 @@ export default function Service() {
                   <i className={service.icon} />
                 </div>
                 <div className="content">
-                  <h4 className="title w-600">
-                    <a href="#">{service.title}</a>
-                  </h4>
+                  <h4 className="title w-600">{service.title}</h4>
+                  <p className="description b1 color-gray mb--0">
+                    {service.description}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* ====== Servicios Complementarios ====== */}
+        <div className="row mt--60">
+          <div className="col-lg-12">
+            <div
+              className="section-title text-center"
+              data-sal="slide-up"
+              data-sal-duration={700}
+              data-sal-delay={100}
+            >
+              <h2 className="title w-600 mb--20">Servicios Complementarios</h2>
+              <p className="description b1">
+                Soluciones adicionales para una estrategia integral.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row g-5 service-wrapper">
+          {serviciosComplementarios.map((service, index) => (
+            <div
+              key={index}
+              className="col-lg-6 col-md-6 col-sm-12 col-12"
+              data-sal="slide-up"
+              data-sal-duration={700}
+              data-sal-delay={service.delay}
+            >
+              <div className="service service__style--1 icon-circle-style text-center">
+                <div className="icon">
+                  <i className={service.icon} />
+                </div>
+                <div className="content">
+                  <h4 className="title w-600">{service.title}</h4>
                   <p className="description b1 color-gray mb--0">
                     {service.description}
                   </p>
