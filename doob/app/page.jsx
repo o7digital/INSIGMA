@@ -1,1 +1,5 @@
-export { default } from "./(homes)/index-corporate/page";
+import Home from "./(homes)/index-corporate-one-page/page";
+
+export default function MainPage() {
+  return <Home />;
+}
