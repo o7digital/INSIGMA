@@ -25,55 +25,9 @@ export default function Page() {
         <div className="rainbow-gradient-circle theme-pink" />
       </div>
 
-      {/* ===== Sección HOME ===== */}
+      {/* Sección HOME */}
       <section id="home">
         <Hero />
-      </section>
-
-      {/* ===== Sección Quiénes Somos / Misión ===== */}
-      <section
-        id="mision"
-        className="rbt-section-gap bg-color-black"
-        style={{ color: "#fff" }}
-      >
-        <div className="container">
-          <div className="section-title text-center">
-            <h2 className="title">Quiénes Somos</h2>
-          </div>
-          <div className="row mt--30">
-            <div className="col-lg-12">
-              <h4>Nuestra Misión:</h4>
-              <p>
-                Proveer soluciones estratégicas basadas en inteligencia
-                multidimensional que permitan anticipar y gestionar riesgos
-                críticos, fortaleciendo la estabilidad, competitividad y
-                reputación de nuestros clientes.
-              </p>
-
-              <h4 className="mt--20">Nuestra Visión:</h4>
-              <p>
-                Ser la consultoría líder en inteligencia estratégica en México
-                y Latinoamérica, reconocida por su capacidad de generar
-                conocimiento oportuno, integral y accionable.
-              </p>
-
-              <h4 className="mt--20">Nuestros Valores:</h4>
-              <p>
-                Integridad | Confidencialidad | Visión Estratégica | Innovación
-                | Confianza
-              </p>
-
-              <h4 className="mt--20">Nuestra Experiencia:</h4>
-              <p>
-                Nuestro equipo ha participado en proyectos estratégicos en
-                sectores como seguridad institucional, bioseguridad, industria
-                farmacéutica, logística y entorno gubernamental. Nos respalda
-                una trayectoria en análisis prospectivo, gestión de crisis y
-                protección de activos críticos.
-              </p>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* Separador */}
@@ -83,8 +37,10 @@ export default function Page() {
         </div>
       </div>
 
-      {/* ===== Sección SERVICIOS ===== */}
-      <section id="servicios">
+      {/* Sección MISIÓN */}
+      <section id="mision">
+        {/* Puedes usar el componente que mejor describa la misión. 
+            Si quieres, aquí se podría poner texto personalizado o usar un bloque existente */}
         <Service />
       </section>
 
@@ -95,7 +51,10 @@ export default function Page() {
         </div>
       </div>
 
-      <Portfolio />
+      {/* Sección SERVICIOS */}
+      <section id="servicios">
+        <Portfolio />
+      </section>
 
       {/* Separador */}
       <div className="rbt-separator-mid">
@@ -104,25 +63,21 @@ export default function Page() {
         </div>
       </div>
 
+      {/* Puedes dejar otras secciones opcionales */}
       <Brands />
-
-      {/* Separador */}
       <div className="rbt-separator-mid">
         <div className="container">
           <hr className="rbt-separator m-0" />
         </div>
       </div>
-
       <Team />
-
-      {/* Separador */}
       <div className="rbt-separator-mid">
         <div className="container">
           <hr className="rbt-separator m-0" />
         </div>
       </div>
 
-      {/* ===== Sección CONTACTO ===== */}
+      {/* Sección CONTACTO */}
       <section id="contacto">
         <Contact />
       </section>
