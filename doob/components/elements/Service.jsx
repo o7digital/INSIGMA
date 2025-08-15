@@ -1,5 +1,6 @@
 // components/elements/Service.jsx
-import { services12 as importedServices12 } from "@/data/service";
+import { services12 } from '../../data/service';
+
 
 // Fallback si viene undefined
 const services12 = importedServices12 || [];
