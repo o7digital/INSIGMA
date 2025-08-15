@@ -83,12 +83,12 @@ export const serviciosComplementarios = [
 // ==========================
 // Alias para compatibilidad
 // ==========================
-// Esto asegura que cualquier import viejo como `services12` no rompa
-export const services = serviciosPrincipales;
-export const services12 = serviciosPrincipales;
-export const cardItems = [];
-export const services11 = [];
-export const servicesGallery = [];
-export const servicesEight = [];
-export const servicesStyle1 = [];
-export const services7 = [];
+// Todos estos apuntan a datos reales para evitar undefined
+export const services = [...serviciosPrincipales];
+export const services12 = [...serviciosPrincipales]; // Evita errores en imports antiguos
+export const cardItems = [...serviciosComplementarios];
+export const services11 = [...serviciosPrincipales];
+export const servicesGallery = [...serviciosPrincipales];
+export const servicesEight = [...serviciosPrincipales];
+export const servicesStyle1 = [...serviciosPrincipales];
+export const services7 = [...serviciosPrincipales];
