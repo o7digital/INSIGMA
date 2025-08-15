@@ -83,10 +83,9 @@ export const serviciosComplementarios = [
 // ==========================
 // Alias para compatibilidad
 // ==========================
-// El template original buscaba otros arrays como services12.
-// Aquí los definimos para que no rompa, aunque no los uses.
+// Esto asegura que cualquier import viejo como `services12` no rompa
 export const services = serviciosPrincipales;
-export const services12 = serviciosPrincipales; // <- Agregado para evitar el error de importación
+export const services12 = serviciosPrincipales;
 export const cardItems = [];
 export const services11 = [];
 export const servicesGallery = [];
