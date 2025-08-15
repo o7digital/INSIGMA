@@ -84,7 +84,7 @@ export const serviciosComplementarios = [
 // Alias para compatibilidad
 // ==========================
 export const services = serviciosPrincipales;
-export const services12 = serviciosPrincipales; // <- Import clave
+export const services12 = serviciosPrincipales; // 👈 Aquí aseguramos que exista
 export const cardItems = [];
 export const services11 = [];
 export const servicesGallery = [];

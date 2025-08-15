@@ -1,29 +1,20 @@
 "use client";
-
 import React from "react";
-import { services12 } from "@/data/service"; // Import corregido
+import { services12 } from "@/data/service";
 
 const Service = () => {
-  const data = services12 || []; // Evitar undefined
-
   return (
-    <div className="row">
-      {data.length > 0 ? (
-        data.map((service, index) => (
-          <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={index}>
-            <div className="service service__style--1">
-              <div className="icon">
-                <i className={service.icon}></i>
-              </div>
-              <div className="content">
-                <h4 className="title">{service.title}</h4>
-                <p>{service.description}</p>
-              </div>
-            </div>
+    <div className="service-wrapper">
+      {services12 && services12.length > 0 ? (
+        services12.map((service, index) => (
+          <div key={index} className="service-card">
+            <i className={`icon ${service.icon}`} />
+            <h3>{service.title}</h3>
+            <p>{service.description}</p>
           </div>
         ))
       ) : (
-        <p>No hay servicios para mostrar.</p>
+        <p>No hay servicios disponibles.</p>
       )}
     </div>
   );
