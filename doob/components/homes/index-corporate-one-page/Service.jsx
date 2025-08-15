@@ -1,6 +1,8 @@
 import React from "react";
-// Import con extensión .js explícita y nombre exacto del archivo
-import { serviciosPrincipales, serviciosComplementarios } from "@/data/service.js";
+import {
+  serviciosPrincipales,
+  serviciosComplementarios,
+} from "@/data/service";
 
 export default function Service() {
   return (
@@ -25,6 +27,7 @@ export default function Service() {
             </div>
           </div>
         </div>
+
         <div className="row g-5 service-wrapper">
           {serviciosPrincipales.map((service, index) => (
             <div
@@ -65,6 +68,7 @@ export default function Service() {
             </div>
           </div>
         </div>
+
         <div className="row g-5 service-wrapper">
           {serviciosComplementarios.map((service, index) => (
             <div
