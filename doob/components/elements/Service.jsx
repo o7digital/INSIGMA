@@ -1,24 +1,32 @@
-// components/elements/Service.jsx
-import { services12 } from '../../data/service';
+"use client";
 
+import React from "react";
+import { services12 } from "@/data/service"; // Import corregido
 
-// Fallback si viene undefined
-const services12 = importedServices12 || [];
+const Service = () => {
+  const data = services12 || []; // Evitar undefined
 
-export default function Service() {
   return (
-    <div className="services-wrapper">
-      {services12.length > 0 ? (
-        services12.map((service, index) => (
-          <div key={index} className="service-card">
-            <i className={service.icon}></i>
-            <h3>{service.title}</h3>
-            <p>{service.description}</p>
+    <div className="row">
+      {data.length > 0 ? (
+        data.map((service, index) => (
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={index}>
+            <div className="service service__style--1">
+              <div className="icon">
+                <i className={service.icon}></i>
+              </div>
+              <div className="content">
+                <h4 className="title">{service.title}</h4>
+                <p>{service.description}</p>
+              </div>
+            </div>
           </div>
         ))
       ) : (
-        <p>No hay servicios configurados.</p>
+        <p>No hay servicios para mostrar.</p>
       )}
     </div>
   );
-}
+};
+
+export default Service;
