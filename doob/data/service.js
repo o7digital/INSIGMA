@@ -79,3 +79,16 @@ export const serviciosComplementarios = [
     delay: 300,
   },
 ];
+
+// ==========================
+// Alias para compatibilidad
+// ==========================
+// Estos arrays están vacíos para que el template no rompa
+// pero puedes llenarlos más adelante si los usas.
+export const services = serviciosPrincipales;
+export const cardItems = [];
+export const services11 = [];
+export const servicesGallery = [];
+export const servicesEight = [];
+export const servicesStyle1 = [];
+export const services7 = [];

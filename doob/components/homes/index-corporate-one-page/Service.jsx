@@ -1,5 +1,6 @@
 import React from "react";
-import { serviciosPrincipales, serviciosComplementarios } from "@/data/service";
+// Import con extensión .js explícita y nombre exacto del archivo
+import { serviciosPrincipales, serviciosComplementarios } from "@/data/service.js";
 
 export default function Service() {
   return (
