@@ -1,6 +1,5 @@
 import Copywrite from "@/components/footers/Copywrite";
 import Header5 from "@/components/headers/Header5";
-import Topbar from "@/components/headers/Topbar";
 import Brands from "@/components/homes/index-corporate-one-page/Brands";
 import Contact from "@/components/homes/index-corporate-one-page/Contact";
 import Hero from "@/components/homes/index-corporate-one-page/Hero";
@@ -16,7 +15,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <Topbar />
+      {/* Quitamos el Topbar con el banner de Limited Time Offer */}
       <Header5 />
       <div>
         <div className="rainbow-gradient-circle" />
