@@ -1,60 +1,102 @@
-"use client";
+import Copywrite from "@/components/footers/Copywrite";
+import Header5 from "@/components/headers/Header5";
+import Brands from "@/components/homes/index-corporate-one-page/Brands";
+import Contact from "@/components/othersPages/Contact";
+import Hero from "@/components/homes/index-corporate-one-page/Hero";
+import Service from "@/components/homes/index-corporate-one-page/Service";
 import React from "react";
 
-export default function Contact() {
+export const metadata = {
+  title: "INSIGMA | Inteligencia Estratégica Multidimensional",
+  description:
+    "Consultoría especializada en inteligencia multidimensional: prevenir riesgos, amenazas y vulnerabilidades en sectores corporativo, industrial y gubernamental.",
+};
+
+export default function Page() {
   return (
-    <section className="contact-area py-16 bg-white" id="contact">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-10">
-          <h2 className="title w-600 mb--20">Contáctanos</h2>
-          <p className="text-gray-700">
-            Monte Albán #64 Interior 1, Col. Narvarte Oriente, CP 03020 <br />
-            Alcaldía Benito Juárez, CDMX, México
-          </p>
-        </div>
+    <>
+      <Header5 />
+      <div>
+        <div className="rainbow-gradient-circle" />
+        <div className="rainbow-gradient-circle theme-pink" />
+      </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Formulario de contacto */}
-          <div>
-            <form className="space-y-4">
-              <input
-                type="text"
-                placeholder="Nombre"
-                className="w-full border rounded p-2"
-              />
-              <input
-                type="email"
-                placeholder="Correo"
-                className="w-full border rounded p-2"
-              />
-              <textarea
-                placeholder="Mensaje"
-                rows="5"
-                className="w-full border rounded p-2"
-              ></textarea>
-              <button
-                type="submit"
-                className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
-              >
-                Enviar
-              </button>
-            </form>
-          </div>
+      <section id="home">
+        <Hero />
+      </section>
 
-          {/* Mapa de Google con dirección CDMX */}
-          <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.446877272227!2d-99.15300082501037!3d19.390200381899175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff279ed59f7f%3A0x91c5c82c51f5e648!2sMonte%20Alb%C3%A1n%2064%2C%20Narvarte%20Oriente%2C%20Benito%20Ju%C3%A1rez%2C%2003020%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1694460512345!5m2!1ses-419!2smx"
-              width="100%"
-              height="400"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
         </div>
       </div>
-    </section>
+
+      <section id="mision">
+        <Service />
+        <section id="about" className="py-16 bg-gray-50">
+          <div className="container mx-auto px-6 text-center">
+            <h2 className="text-3xl font-bold mb-10">Quiénes Somos</h2>
+            <div className="grid md:grid-cols-2 gap-10 text-left">
+              <div>
+                <h3 className="text-xl font-semibold mb-4">Nuestra Misión</h3>
+                <p>
+                  Proveer soluciones estratégicas basadas en inteligencia
+                  multidimensional que permitan anticipar y gestionar riesgos
+                  críticos, fortaleciendo la estabilidad, competitividad y
+                  reputación de nuestros clientes.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4">Nuestra Visión</h3>
+                <p>
+                  Ser la consultoría líder en inteligencia estratégica en México
+                  y Latinoamérica, reconocida por su capacidad de generar
+                  conocimiento oportuno, integral y accionable.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4">Nuestros Valores</h3>
+                <p>
+                  Integridad | Confidencialidad | Visión Estratégica | Innovación
+                  | Confianza
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4">
+                  Nuestra Experiencia
+                </h3>
+                <p>
+                  Nuestro equipo ha participado en proyectos estratégicos en
+                  sectores como seguridad institucional, bioseguridad, industria
+                  farmacéutica, logística y entorno gubernamental. Nos respalda
+                  una trayectoria en análisis prospectivo, gestión de crisis y
+                  protección de activos críticos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
+        </div>
+      </div>
+
+      <Brands />
+
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
+        </div>
+      </div>
+
+      <section id="contacto">
+        <Contact />
+      </section>
+
+      <Copywrite />
+    </>
   );
 }
