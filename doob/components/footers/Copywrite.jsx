@@ -9,13 +9,13 @@ export default function Copywrite() {
             <div className="copyright-left">
               <ul className="ft-menu link-hover">
                 <li>
-                  <Link href={`/privacy-policy`}>Privacy Policy</Link>
+                  <Link href={`/privacy-policy`}>Aviso de Privacidad</Link>
                 </li>
                 <li>
-                  <a href="#">Terms And Condition</a>
+                  <a href="#">Terminos y condiciones</a>
                 </li>
                 <li>
-                  <Link href={`/contact`}>Contact Us</Link>
+                  <Link href={`/contact`}>Contactarnos</Link>
                 </li>
               </ul>
             </div>
@@ -23,7 +23,7 @@ export default function Copywrite() {
           <div className="col-lg-6 col-md-4 col-sm-12 col-12">
             <div className="copyright-right text-center text-lg-end">
               <p className="copyright-text">
-                © Copyright All rights reserved Rainbow-Themes
+                © Copyright Insigma 2025
               </p>
             </div>
           </div>
