@@ -1,6 +1,5 @@
 import Copywrite from "@/components/footers/Copywrite";
 import Header5 from "@/components/headers/Header5";
-import Brands from "@/components/homes/index-corporate-one-page/Brands";
 import Contact from "@/components/othersPages/Contact";
 import Hero from "@/components/homes/index-corporate-one-page/Hero";
 import Service from "@/components/homes/index-corporate-one-page/Service";
@@ -76,14 +75,6 @@ export default function Page() {
       <section id="mision">
         <Service />
       </section>
-
-      <div className="rbt-separator-mid">
-        <div className="container">
-          <hr className="rbt-separator m-0" />
-        </div>
-      </div>
-
-      <Brands />
 
       <div className="rbt-separator-mid">
         <div className="container">
