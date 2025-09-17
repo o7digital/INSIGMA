@@ -20,11 +20,13 @@ export default function Page() {
         <div className="rainbow-gradient-circle theme-pink" />
       </div>
 
+      {/* HOME */}
       <section id="home">
         <Hero />
       </section>
 
-      <section id="about" className="py-16 bg-gray-50">
+      {/* QUIÉNES SOMOS (Misión, Visión, Valores, Experiencia) */}
+      <section id="mision" className="py-16 bg-gray-50">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-10">Quiénes Somos</h2>
           <div className="grid md:grid-cols-2 gap-10 text-left">
@@ -48,8 +50,8 @@ export default function Page() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Nuestros Valores</h3>
               <p>
-                Integridad | Confidencialidad | Visión Estratégica | Innovación
-                | Confianza
+                Integridad | Confidencialidad | Visión Estratégica | Innovación |
+                Confianza
               </p>
             </div>
             <div>
@@ -72,7 +74,8 @@ export default function Page() {
         </div>
       </div>
 
-      <section id="mision">
+      {/* SERVICIOS */}
+      <section id="servicios">
         <Service />
       </section>
 
@@ -82,6 +85,7 @@ export default function Page() {
         </div>
       </div>
 
+      {/* CONTACTO */}
       <section id="contacto">
         <Contact />
       </section>
