@@ -2,94 +2,78 @@ import React from "react";
 
 export default function PrivacyPolicy() {
   return (
-    <div className="rainbow-elements-area rainbow-section-gap">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="entry-content">
-              <h2>Welcome to Doob Privacy Policy</h2>
-              <ol>
-                <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur (the “<strong>Sites</strong>
-                  ”).
-                </li>
-                <li>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo.
-                </li>
-                <li>
-                  Nemo enim ipsam voluptatem quia&nbsp;voluptas sit
-                  aspernatur&nbsp;aut odit aut fugit, sed quia consequuntur
-                  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
-                  porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                  consectetur, adipisci velit, sed quia non numquam eius modi
-                  tempora incidunt ut labore et dolore magnam aliquam quaerat
-                  voluptatem.
-                </li>
-              </ol>
-              <p>
-                <strong>The type of personal information we collect</strong>
-              </p>
-              <ol start={4}>
-                <li>
-                  We collect certain personal information about visitors and
-                  users of our Sites.&nbsp;
-                  <a href="http://rainbowit.net/themes/trydo">
-                    http://rainbowit.net/themes/
-                  </a>
-                  imroz
-                </li>
-                <li>
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                  corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                  consequatur? Quis autem vel eum iure reprehenderit qui in ea
-                  voluptate velit esse quam nihil molestiae consequatur, vel
-                  illum qui dolorem eum fugiat quo voluptas nulla pariatur.
-                </li>
-              </ol>
-              <p>
-                <strong>How we collect personal information</strong>
-              </p>
-              <ol start={6}>
-                <li>
-                  I must explain to you how all this mistaken idea of denouncing
-                  pleasure and praising pain was born and I will give you a
-                  complete account of the system, and expound the actual
-                  teachings.
-                </li>
-                <li>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos
-                  dolores et quas molestias excepturi sint occaecati cupiditate
-                  non provident similique sunt in culpa qui officia deserunt
-                  mollitia animi, id est laborum et dolorum fuga.
-                </li>
-                <li>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment, so blinded by desire, that they
-                  cannot foresee the pain and trouble that are bound to ensue;
-                  and equal blame belongs to those who fail in their duty
-                  through weakness of will, which is the same as saying through
-                  shrinking from toil and pain. These cases are perfectly simple
-                  and easy to distinguish.&nbsp;In a free hour, when our power
-                  of choice is untrammelled and when nothing prevents our being
-                  able to do what we like best, every pleasure is to be welcomed
-                  and every pain avoided. But in certain circumstances and owing
-                  to the claims of duty or the obligations&nbsp;
-                </li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="container py-16">
+      <h1 className="text-3xl font-bold mb-6">Aviso de Privacidad</h1>
+
+      <p className="mb-4">
+        TRANSOCEAN S.A. de C.V., con domicilio en Monte Albán #64 interior 1,
+        Colonia Narvarte Oriente, C.P. 03020, Alcaldía Benito Juárez, Ciudad de
+        México, México, en cumplimiento con la Ley Federal de Protección de
+        Datos Personales en Posesión de los Particulares (LFPDPPP), pone a su
+        disposición el presente Aviso de Privacidad.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        1. Datos Personales que Recabamos
+      </h2>
+      <p className="mb-4">
+        Podremos recabar datos como: nombre, correo electrónico, teléfono,
+        empresa y cualquier otra información necesaria para la prestación de
+        nuestros servicios de consultoría e inteligencia estratégica.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        2. Finalidades del Tratamiento
+      </h2>
+      <p className="mb-4">
+        Los datos personales serán utilizados para: (i) proveer los servicios
+        solicitados; (ii) dar cumplimiento a obligaciones legales; (iii)
+        actividades de comunicación, mercadotecnia y promoción de nuestros
+        servicios; (iv) fines estadísticos internos.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-8 mb-4">3. Uso de Cookies</h2>
+      <p className="mb-4">
+        Nuestro sitio web utiliza cookies para mejorar la experiencia del
+        usuario, analizar patrones de navegación y ofrecer contenido
+        personalizado. Usted puede desactivar las cookies desde la configuración
+        de su navegador, aunque algunas funciones del sitio podrían verse
+        limitadas.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-8 mb-4">4. Derechos ARCO</h2>
+      <p className="mb-4">
+        Usted tiene derecho a Acceder, Rectificar, Cancelar u Oponerse al
+        tratamiento de sus datos personales (Derechos ARCO). Puede ejercer estos
+        derechos enviando una solicitud al correo electrónico:{" "}
+        <a href="mailto:contacto@transocean.com" className="text-blue-600">
+          contacto@transocean.com
+        </a>
+        . Daremos respuesta en un plazo máximo de 20 días hábiles y, de ser
+        procedente, haremos efectivo el derecho solicitado en un plazo de 15
+        días hábiles adicionales.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        5. Transferencia de Datos
+      </h2>
+      <p className="mb-4">
+        Sus datos no serán compartidos con terceros sin su consentimiento
+        expreso, salvo cuando sea requerido por ley o por autoridades
+        competentes.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-8 mb-4">6. Modificaciones</h2>
+      <p className="mb-4">
+        Cualquier cambio al presente Aviso de Privacidad será publicado en
+        nuestro sitio web{" "}
+        <a href="https://insigma.vercel.app" className="text-blue-600">
+          https://insigma.vercel.app
+        </a>
+        .
+      </p>
+
+      <p className="mt-8">Última actualización: Septiembre 2025.</p>
     </div>
   );
 }
