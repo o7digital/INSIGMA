@@ -14,6 +14,43 @@ export const metadata = {
   title: "TRANSTEK | Inteligencia Estratégica Multidimensional",
   description:
     "Consultoría especializada en inteligencia multidimensional: prevenir riesgos, amenazas y vulnerabilidades en sectores corporativo, industrial y gubernamental.",
+  keywords: "inteligencia estratégica, análisis de riesgos, consultoría seguridad, gestión crisis, protección activos, México",
+  authors: [{ name: "TRANSTEK" }],
+  creator: "TRANSTEK",
+  publisher: "TRANSTEK",
+  openGraph: {
+    title: "TRANSTEK | Sistema Integral de Seguridad Corporativa",
+    description: "Consultoría especializada en inteligencia estratégica multidimensional",
+    url: "https://transtek.vercel.app",
+    siteName: "TRANSTEK",
+    locale: "es_MX",
+    type: "website",
+    images: [
+      {
+        url: "/transtek/hero1.webp",
+        width: 1920,
+        height: 1080,
+        alt: "TRANSTEK - Sistema Integral de Seguridad Corporativa",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TRANSTEK | Inteligencia Estratégica",
+    description: "Consultoría especializada en inteligencia multidimensional",
+    images: ["/transtek/hero1.webp"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function Page() {

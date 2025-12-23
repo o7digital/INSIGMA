@@ -1,10 +1,11 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 const images = [
-  "/transtek/hero1.jpg",
-  "/transtek/hero2.jpg",
-  "/transtek/hero3.jpg",
+  "/transtek/hero1.webp",
+  "/transtek/hero2.webp",
+  "/transtek/hero3.webp",
 ];
 
 export default function Hero() {
@@ -20,15 +21,16 @@ export default function Hero() {
 
   return (
     <section id="home" className="hero-area">
-      <div className="hero-slide">
-        <img
+      <div className="hero-slide" style={{ position: "relative", width: "100%", height: "80vh" }}>
+        <Image
           src={images[i]}
-          alt={`TRANSTEK slide ${i + 1}`}
+          alt={`TRANSTEK - Sistema Integral de Seguridad Corporativa ${i + 1}`}
+          fill
+          priority={i === 0}
+          quality={90}
+          sizes="100vw"
           style={{
-            width: "100%",
-            height: "80vh",
             objectFit: "cover",
-            display: "block"
           }}
         />
       </div>

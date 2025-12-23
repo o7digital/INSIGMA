@@ -52,7 +52,12 @@ const Header5 = () => {
           <div className="col-lg-3 col-md-6 col-6">
             <div className="logo">
               <Link href="/">
-                <img src="/images/logo/logo.png" alt="TRANSTEK" />
+                <img 
+                  src="/images/logo/logo.png" 
+                  alt="TRANSTEK - Inteligencia Estratégica Multidimensional" 
+                  width="200"
+                  height="70"
+                />
               </Link>
             </div>
           </div>
