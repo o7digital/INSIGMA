@@ -63,8 +63,11 @@ const Header5 = () => {
               <nav className="mainmenu-nav d-none d-lg-block">
                 <ul className="mainmenu">
                   <li><a href="#home">Home</a></li>
-                  <li><a href="#mision">Misión</a></li>
+                  <li><a href="#mision">Quiénes Somos</a></li>
                   <li><a href="#servicios">Servicios</a></li>
+                  <li><a href="#metodologia">Metodología</a></li>
+                  <li><a href="#beneficios">Beneficios</a></li>
+                  <li><a href="#casos">Casos de Éxito</a></li>
                   <li><a href="#contacto">Contacto</a></li>
                 </ul>
               </nav>
@@ -98,8 +101,11 @@ const Header5 = () => {
           </div>
           <ul className="mainmenu">
             <li><a href="#home">Home</a></li>
-            <li><a href="#mision">Misión</a></li>
+            <li><a href="#mision">Quiénes Somos</a></li>
             <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#metodologia">Metodología</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#casos">Casos de Éxito</a></li>
             <li><a href="#contacto">Contacto</a></li>
           </ul>
         </div>

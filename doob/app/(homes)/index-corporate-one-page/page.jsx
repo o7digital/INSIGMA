@@ -2,7 +2,12 @@ import Copywrite from "@/components/footers/Copywrite";
 import Header5 from "@/components/headers/Header5";
 import Contact from "@/components/othersPages/Contact";
 import Hero from "@/components/homes/index-corporate-one-page/Hero";
+import QuienesSomos from "@/components/homes/index-corporate-one-page/QuienesSomos";
 import Service from "@/components/homes/index-corporate-one-page/Service";
+import Metodologia from "@/components/homes/index-corporate-one-page/Metodologia";
+import Beneficios from "@/components/homes/index-corporate-one-page/Beneficios";
+import CasosExito from "@/components/homes/index-corporate-one-page/CasosExito";
+import CallToAction from "@/components/homes/index-corporate-one-page/CallToAction";
 import React from "react";
 
 export const metadata = {
@@ -26,46 +31,8 @@ export default function Page() {
       </section>
 
       {/* QUIÉNES SOMOS (Misión, Visión, Valores, Experiencia) */}
-      <section id="mision" className="py-16 bg-gray-50">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-10">Quiénes Somos</h2>
-          <div className="grid md:grid-cols-2 gap-10 text-left">
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Nuestra Misión</h3>
-              <p>
-                Proveer soluciones estratégicas basadas en inteligencia
-                multidimensional que permitan anticipar y gestionar riesgos
-                críticos, fortaleciendo la estabilidad, competitividad y
-                reputación de nuestros clientes.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Nuestra Visión</h3>
-              <p>
-                Ser la consultoría líder en inteligencia estratégica en México y
-                Latinoamérica, reconocida por su capacidad de generar
-                conocimiento oportuno, integral y accionable.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Nuestros Valores</h3>
-              <p>
-                Integridad | Confidencialidad | Visión Estratégica | Innovación |
-                Confianza
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Nuestra Experiencia</h3>
-              <p>
-                Nuestro equipo ha participado en proyectos estratégicos en
-                sectores como seguridad institucional, bioseguridad, industria
-                farmacéutica, logística y entorno gubernamental. Nos respalda una
-                trayectoria en análisis prospectivo, gestión de crisis y
-                protección de activos críticos.
-              </p>
-            </div>
-          </div>
-        </div>
+      <section id="mision">
+        <QuienesSomos />
       </section>
 
       <div className="rbt-separator-mid">
@@ -77,6 +44,50 @@ export default function Page() {
       {/* SERVICIOS */}
       <section id="servicios">
         <Service />
+      </section>
+
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
+        </div>
+      </div>
+
+      {/* METODOLOGÍA */}
+      <section id="metodologia">
+        <Metodologia />
+      </section>
+
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
+        </div>
+      </div>
+
+      {/* BENEFICIOS */}
+      <section id="beneficios">
+        <Beneficios />
+      </section>
+
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
+        </div>
+      </div>
+
+      {/* CASOS DE ÉXITO */}
+      <section id="casos">
+        <CasosExito />
+      </section>
+
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
+        </div>
+      </div>
+
+      {/* CALL TO ACTION */}
+      <section id="cta">
+        <CallToAction />
       </section>
 
       <div className="rbt-separator-mid">
