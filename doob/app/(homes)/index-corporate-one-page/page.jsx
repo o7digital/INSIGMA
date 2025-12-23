@@ -4,6 +4,7 @@ import Contact from "@/components/othersPages/Contact";
 import Hero from "@/components/homes/index-corporate-one-page/Hero";
 import QuienesSomos from "@/components/homes/index-corporate-one-page/QuienesSomos";
 import Service from "@/components/homes/index-corporate-one-page/Service";
+import M7Technologies from "@/components/homes/index-corporate-one-page/M7Technologies";
 import Metodologia from "@/components/homes/index-corporate-one-page/Metodologia";
 import Beneficios from "@/components/homes/index-corporate-one-page/Beneficios";
 import CasosExito from "@/components/homes/index-corporate-one-page/CasosExito";
@@ -74,7 +75,7 @@ export default function Page() {
         <Hero />
       </section>
 
-      {/* QUIÉNES SOMOS (Misión, Visión, Valores, Experiencia) */}
+      {/* QUIENES SOMOS (Mision, Vision, Valores, Experiencia) */}
       <section id="mision">
         <QuienesSomos />
       </section>
@@ -96,7 +97,18 @@ export default function Page() {
         </div>
       </div>
 
-      {/* METODOLOGÍA */}
+      {/* M7 TECHNOLOGIES */}
+      <section id="m7technologies">
+        <M7Technologies />
+      </section>
+
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
+        </div>
+      </div>
+
+      {/* METODOLOGIA */}
       <section id="metodologia">
         <Metodologia />
       </section>
@@ -118,7 +130,7 @@ export default function Page() {
         </div>
       </div>
 
-      {/* CASOS DE ÉXITO */}
+      {/* CASOS DE EXITO */}
       <section id="casos">
         <CasosExito />
       </section>

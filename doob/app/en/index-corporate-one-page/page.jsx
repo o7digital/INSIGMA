@@ -4,6 +4,7 @@ import ContactEN from "@/components/othersPages-en/ContactEN";
 import HeroEN from "@/components/homes/index-corporate-one-page-en/HeroEN";
 import AboutUsEN from "@/components/homes/index-corporate-one-page-en/AboutUsEN";
 import ServiceEN from "@/components/homes/index-corporate-one-page-en/ServiceEN";
+import M7TechnologiesEN from "@/components/homes/index-corporate-one-page-en/M7TechnologiesEN";
 import MethodologyEN from "@/components/homes/index-corporate-one-page-en/MethodologyEN";
 import BenefitsEN from "@/components/homes/index-corporate-one-page-en/BenefitsEN";
 import SuccessStoriesEN from "@/components/homes/index-corporate-one-page-en/SuccessStoriesEN";
@@ -60,7 +61,7 @@ export const metadata = {
   },
 };
 
-export default function PageEN() {
+export default function Page() {
   return (
     <>
       <Header5EN />
@@ -96,6 +97,17 @@ export default function PageEN() {
         </div>
       </div>
 
+      {/* M7 TECHNOLOGIES */}
+      <section id="m7technologies">
+        <M7TechnologiesEN />
+      </section>
+
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
+        </div>
+      </div>
+
       {/* METHODOLOGY */}
       <section id="methodology">
         <MethodologyEN />
@@ -119,7 +131,7 @@ export default function PageEN() {
       </div>
 
       {/* SUCCESS STORIES */}
-      <section id="success-stories">
+      <section id="success">
         <SuccessStoriesEN />
       </section>
 
