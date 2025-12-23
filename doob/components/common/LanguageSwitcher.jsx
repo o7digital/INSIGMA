@@ -10,9 +10,15 @@ const LanguageSwitcher = () => {
   const isEnglish = pathname?.startsWith("/en");
   
   // Construire l'URL de la version alternative
-  const alternateUrl = isEnglish 
-    ? pathname.replace("/en/", "/")
-    : `/en${pathname}`;
+  let alternateUrl;
+  
+  if (isEnglish) {
+    // De EN vers ES : enlever /en
+    alternateUrl = pathname.replace(/^\/en/, "") || "/";
+  } else {
+    // De ES vers EN : ajouter /en
+    alternateUrl = pathname === "/" ? "/en" : `/en${pathname}`;
+  }
 
   return (
     <div className="language-switcher ms-3">
