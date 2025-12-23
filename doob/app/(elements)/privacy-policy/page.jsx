@@ -1,5 +1,17 @@
 import React from "react";
 
+export const metadata = {
+  title: "Aviso de Privacidad | TRANSTEK",
+  description: "Aviso de privacidad y protección de datos personales",
+  alternates: {
+    canonical: "https://transtek.vercel.app/privacy-policy",
+    languages: {
+      "es-MX": "https://transtek.vercel.app/privacy-policy",
+      "en-US": "https://transtek.vercel.app/en/privacy-policy",
+    },
+  },
+};
+
 export default function PrivacyPolicy() {
   return (
     <div className="container py-16">
