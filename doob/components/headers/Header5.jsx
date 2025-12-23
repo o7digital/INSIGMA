@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import Link from "next/link";
+import ModeSwitcher from "../common/ModeSwitcher";
 
 const Header5 = () => {
   // Scroll suave a secciones
@@ -56,23 +57,30 @@ const Header5 = () => {
             </div>
           </div>
 
-          {/* Menú desktop */}
-          <div className="col-lg-9 d-none d-lg-block">
-            <nav className="mainmenu-nav">
-              <ul className="mainmenu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#mision">Misión</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-              </ul>
-            </nav>
-          </div>
+          {/* Menú desktop et switcher */}
+          <div className="col-lg-9 col-md-6 col-6">
+            <div className="header-right">
+              <nav className="mainmenu-nav d-none d-lg-block">
+                <ul className="mainmenu">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#mision">Misión</a></li>
+                  <li><a href="#servicios">Servicios</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+                </ul>
+              </nav>
+              
+              {/* Hamburger en móvil */}
+              <div className="mobile-menu-bar ml--5 d-block d-lg-none">
+                <div className="hamberger">
+                  <button className="hamberger-button" aria-label="Abrir menú">
+                    <i className="feather-menu"></i>
+                  </button>
+                </div>
+              </div>
 
-          {/* Hamburger en móvil */}
-          <div className="col-6 d-block d-lg-none text-end">
-            <button className="hamberger-button" aria-label="Abrir menú">
-              <i className="feather-menu"></i>
-            </button>
+              {/* Mode Switcher */}
+              <ModeSwitcher />
+            </div>
           </div>
         </div>
       </div>
