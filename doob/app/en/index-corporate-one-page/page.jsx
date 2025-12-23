@@ -1,43 +1,43 @@
 import Copywrite from "@/components/footers/Copywrite";
-import Header5 from "@/components/headers/Header5";
-import Contact from "@/components/othersPages/Contact";
-import Hero from "@/components/homes/index-corporate-one-page/Hero";
-import QuienesSomos from "@/components/homes/index-corporate-one-page/QuienesSomos";
-import Service from "@/components/homes/index-corporate-one-page/Service";
-import Metodologia from "@/components/homes/index-corporate-one-page/Metodologia";
-import Beneficios from "@/components/homes/index-corporate-one-page/Beneficios";
-import CasosExito from "@/components/homes/index-corporate-one-page/CasosExito";
-import CallToAction from "@/components/homes/index-corporate-one-page/CallToAction";
+import Header5EN from "@/components/headers-en/Header5EN";
+import ContactEN from "@/components/othersPages-en/ContactEN";
+import HeroEN from "@/components/homes/index-corporate-one-page-en/HeroEN";
+import AboutUsEN from "@/components/homes/index-corporate-one-page-en/AboutUsEN";
+import ServiceEN from "@/components/homes/index-corporate-one-page-en/ServiceEN";
+import MethodologyEN from "@/components/homes/index-corporate-one-page-en/MethodologyEN";
+import BenefitsEN from "@/components/homes/index-corporate-one-page-en/BenefitsEN";
+import SuccessStoriesEN from "@/components/homes/index-corporate-one-page-en/SuccessStoriesEN";
+import CallToActionEN from "@/components/homes/index-corporate-one-page-en/CallToActionEN";
 import React from "react";
 
 export const metadata = {
-  title: "TRANSTEK | Inteligencia Estratégica Multidimensional",
+  title: "TRANSTEK | Multidimensional Strategic Intelligence",
   description:
-    "Consultoría especializada en inteligencia multidimensional: prevenir riesgos, amenazas y vulnerabilidades en sectores corporativo, industrial y gubernamental.",
-  keywords: "inteligencia estratégica, análisis de riesgos, consultoría seguridad, gestión crisis, protección activos, México",
+    "Specialized consulting in multidimensional intelligence: preventing risks, threats and vulnerabilities in corporate, industrial and governmental sectors.",
+  keywords: "strategic intelligence, risk analysis, security consulting, crisis management, asset protection, Mexico",
   authors: [{ name: "TRANSTEK" }],
   creator: "TRANSTEK",
   publisher: "TRANSTEK",
   openGraph: {
-    title: "TRANSTEK | Sistema Integral de Seguridad Corporativa",
-    description: "Consultoría especializada en inteligencia estratégica multidimensional",
-    url: "https://transtek.vercel.app/index-corporate-one-page",
+    title: "TRANSTEK | Comprehensive Corporate Security System",
+    description: "Specialized consulting in multidimensional strategic intelligence",
+    url: "https://transtek.vercel.app/en",
     siteName: "TRANSTEK",
-    locale: "es_MX",
+    locale: "en_US",
     type: "website",
     images: [
       {
         url: "/transtek/hero1.webp",
         width: 1920,
         height: 1080,
-        alt: "TRANSTEK - Sistema Integral de Seguridad Corporativa",
+        alt: "TRANSTEK - Comprehensive Corporate Security System",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TRANSTEK | Inteligencia Estratégica",
-    description: "Consultoría especializada en inteligencia multidimensional",
+    title: "TRANSTEK | Strategic Intelligence",
+    description: "Specialized consulting in multidimensional intelligence",
     images: ["/transtek/hero1.webp"],
   },
   robots: {
@@ -52,7 +52,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://transtek.vercel.app/index-corporate-one-page",
+    canonical: "https://transtek.vercel.app/en/index-corporate-one-page",
     languages: {
       "es-MX": "https://transtek.vercel.app/index-corporate-one-page",
       "en-US": "https://transtek.vercel.app/en/index-corporate-one-page",
@@ -60,10 +60,10 @@ export const metadata = {
   },
 };
 
-export default function Page() {
+export default function PageEN() {
   return (
     <>
-      <Header5 />
+      <Header5EN />
       <div>
         <div className="rainbow-gradient-circle" />
         <div className="rainbow-gradient-circle theme-pink" />
@@ -71,23 +71,12 @@ export default function Page() {
 
       {/* HOME */}
       <section id="home">
-        <Hero />
+        <HeroEN />
       </section>
 
-      {/* QUIÉNES SOMOS (Misión, Visión, Valores, Experiencia) */}
-      <section id="mision">
-        <QuienesSomos />
-      </section>
-
-      <div className="rbt-separator-mid">
-        <div className="container">
-          <hr className="rbt-separator m-0" />
-        </div>
-      </div>
-
-      {/* SERVICIOS */}
-      <section id="servicios">
-        <Service />
+      {/* ABOUT US (Mission, Vision, Values, Experience) */}
+      <section id="about">
+        <AboutUsEN />
       </section>
 
       <div className="rbt-separator-mid">
@@ -96,9 +85,9 @@ export default function Page() {
         </div>
       </div>
 
-      {/* METODOLOGÍA */}
-      <section id="metodologia">
-        <Metodologia />
+      {/* SERVICES */}
+      <section id="services">
+        <ServiceEN />
       </section>
 
       <div className="rbt-separator-mid">
@@ -107,9 +96,9 @@ export default function Page() {
         </div>
       </div>
 
-      {/* BENEFICIOS */}
-      <section id="beneficios">
-        <Beneficios />
+      {/* METHODOLOGY */}
+      <section id="methodology">
+        <MethodologyEN />
       </section>
 
       <div className="rbt-separator-mid">
@@ -118,9 +107,20 @@ export default function Page() {
         </div>
       </div>
 
-      {/* CASOS DE ÉXITO */}
-      <section id="casos">
-        <CasosExito />
+      {/* BENEFITS */}
+      <section id="benefits">
+        <BenefitsEN />
+      </section>
+
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
+        </div>
+      </div>
+
+      {/* SUCCESS STORIES */}
+      <section id="success-stories">
+        <SuccessStoriesEN />
       </section>
 
       <div className="rbt-separator-mid">
@@ -131,7 +131,7 @@ export default function Page() {
 
       {/* CALL TO ACTION */}
       <section id="cta">
-        <CallToAction />
+        <CallToActionEN />
       </section>
 
       <div className="rbt-separator-mid">
@@ -140,9 +140,9 @@ export default function Page() {
         </div>
       </div>
 
-      {/* CONTACTO */}
-      <section id="contacto">
-        <Contact />
+      {/* CONTACT */}
+      <section id="contact">
+        <ContactEN />
       </section>
 
       <Copywrite />

@@ -8,6 +8,7 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 1,
     },
+    // Spanish pages
     {
       url: `${baseUrl}/index-corporate-one-page`,
       lastModified: new Date(),
@@ -31,6 +32,13 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
+    },
+    // English pages
+    {
+      url: `${baseUrl}/en/index-corporate-one-page`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
     },
   ];
 }
