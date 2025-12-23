@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
 import ModeSwitcher from "../common/ModeSwitcher";
+import { openMenu, closeMenu } from "@/utlis/toggleMenu";
 
 const Header5 = () => {
   // Scroll suave a secciones
@@ -19,27 +20,20 @@ const Header5 = () => {
     });
   }, []);
 
-  // Toggle menú móvil
+  // Fermer menu mobile après clic sur lien
   useEffect(() => {
-    const body = document.body;
-    const openBtn = document.querySelector(".hamberger-button");
-    const closeBtn = document.querySelector(".close-mobile-menu");
+    const menuLinks = document.querySelectorAll(".popup-mobile-menu a[href^='#']");
+    const handleLinkClick = () => {
+      closeMenu();
+    };
 
-    const open = () => body.classList.add("popup-mobile-menu-active");
-    const close = () => body.classList.remove("popup-mobile-menu-active");
-
-    openBtn?.addEventListener("click", open);
-    closeBtn?.addEventListener("click", close);
-
-    document.querySelectorAll(".popup-mobile-menu a[href^='#']").forEach(a => {
-      a.addEventListener("click", close);
+    menuLinks.forEach((link) => {
+      link.addEventListener("click", handleLinkClick);
     });
 
     return () => {
-      openBtn?.removeEventListener("click", open);
-      closeBtn?.removeEventListener("click", close);
-      document.querySelectorAll(".popup-mobile-menu a[href^='#']").forEach(a => {
-        a.removeEventListener("click", close);
+      menuLinks.forEach((link) => {
+        link.removeEventListener("click", handleLinkClick);
       });
     };
   }, []);
@@ -80,7 +74,7 @@ const Header5 = () => {
               {/* Hamburger en móvil */}
               <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                 <div className="hamberger">
-                  <button className="hamberger-button" aria-label="Abrir menú">
+                  <button onClick={openMenu} className="hamberger-button" aria-label="Abrir menú">
                     <i className="feather-menu"></i>
                   </button>
                 </div>
@@ -94,12 +88,12 @@ const Header5 = () => {
       </div>
 
       {/* Menú móvil */}
-      <div className="popup-mobile-menu d-lg-none">
+      <div className="popup-mobile-menu">
         <div className="inner">
-          <div className="menu-top">
+          <div className="header-top">
             <div className="menu-header">
               <h6 className="title">Menú</h6>
-              <button className="close-button close-mobile-menu" aria-label="Cerrar menú">
+              <button onClick={closeMenu} className="close-button close-mobile-menu" aria-label="Cerrar menú">
                 <i className="feather-x"></i>
               </button>
             </div>
