@@ -49,9 +49,9 @@ const Header5 = () => {
                 <img 
                   src="/logo/transtek-logo.png" 
                   alt="TRANSTEK - Inteligencia Estratégica Multidimensional" 
-                  width="200"
+                  width="260"
                   height="auto"
-                  style={{ maxHeight: "70px", width: "auto" }}
+                  style={{ maxHeight: "91px", width: "auto" }}
                 />
               </Link>
             </div>
