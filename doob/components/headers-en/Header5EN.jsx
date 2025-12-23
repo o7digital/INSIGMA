@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
 import ModeSwitcher from "../common/ModeSwitcher";
+import LanguageSwitcher from "../common/LanguageSwitcher";
 import { openMenu, closeMenu } from "@/utlis/toggleMenu";
 
 const Header5EN = () => {
@@ -39,7 +40,7 @@ const Header5EN = () => {
   }, []);
 
   return (
-    <header className="rainbow-header header-default header-transparent header-sticky">
+    <header className="rainbow-header header-default header-not-transparent header-sticky" style={{ backgroundColor: "var(--color-bg-body)", boxShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>
       <div className="container position-relative">
         <div className="row align-items-center">
           {/* Logo */}
@@ -83,6 +84,9 @@ const Header5EN = () => {
 
               {/* Mode Switcher */}
               <ModeSwitcher />
+              
+              {/* Language Switcher */}
+              <LanguageSwitcher />
             </div>
           </div>
         </div>
