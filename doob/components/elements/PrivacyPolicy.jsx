@@ -67,8 +67,8 @@ export default function PrivacyPolicy() {
       <p className="mb-4">
         Cualquier cambio al presente Aviso de Privacidad será publicado en
         nuestro sitio web{" "}
-        <a href="https://insigma.vercel.app" className="text-blue-600">
-          https://insigma.vercel.app
+        <a href="https://transtek.vercel.app" className="text-blue-600">
+          https://transtek.vercel.app
         </a>
         .
       </p>

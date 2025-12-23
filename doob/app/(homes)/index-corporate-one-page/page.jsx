@@ -11,7 +11,7 @@ import CallToAction from "@/components/homes/index-corporate-one-page/CallToActi
 import React from "react";
 
 export const metadata = {
-  title: "INSIGMA | Inteligencia Estratégica Multidimensional",
+  title: "TRANSTEK | Inteligencia Estratégica Multidimensional",
   description:
     "Consultoría especializada en inteligencia multidimensional: prevenir riesgos, amenazas y vulnerabilidades en sectores corporativo, industrial y gubernamental.",
 };

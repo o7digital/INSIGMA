@@ -2,9 +2,9 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const images = [
-  "/insigma/hero1.jpg",
-  "/insigma/hero2.jpg",
-  "/insigma/hero3.jpg",
+  "/transtek/hero1.jpg",
+  "/transtek/hero2.jpg",
+  "/transtek/hero3.jpg",
 ];
 
 export default function Hero() {
@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="hero-slide">
         <img
           src={images[i]}
-          alt={`INSIGMA slide ${i + 1}`}
+          alt={`TRANSTEK slide ${i + 1}`}
           style={{
             width: "100%",
             height: "80vh",

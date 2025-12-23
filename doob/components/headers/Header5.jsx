@@ -52,7 +52,7 @@ const Header5 = () => {
           <div className="col-lg-3 col-md-6 col-6">
             <div className="logo">
               <Link href="/">
-                <img src="/images/logo/logo.png" alt="INSIGMA" />
+                <img src="/images/logo/logo.png" alt="TRANSTEK" />
               </Link>
             </div>
           </div>

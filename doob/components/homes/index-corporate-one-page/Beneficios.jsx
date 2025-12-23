@@ -106,7 +106,7 @@ export default function Beneficios() {
               data-sal="slide-up"
               data-sal-duration={700}
             >
-              <h3 className="title w-600">¿Por Qué Elegir INSIGMA?</h3>
+              <h3 className="title w-600">¿Por Qué Elegir TRANSTEK?</h3>
               <p className="description b1">
                 Nuestras ventajas competitivas que nos distinguen
               </p>

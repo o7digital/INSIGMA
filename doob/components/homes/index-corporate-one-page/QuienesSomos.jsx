@@ -43,7 +43,7 @@ export default function QuienesSomos() {
             >
               <h2 className="title w-600 mb--20">Quiénes Somos</h2>
               <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto" }}>
-                INSIGMA es una consultoría especializada en inteligencia estratégica
+                TRANSTEK es una consultoría especializada en inteligencia estratégica
                 multidimensional, dedicada a transformar información en protección y
                 conocimiento accionable para organizaciones que enfrentan entornos
                 complejos y dinámicos.
