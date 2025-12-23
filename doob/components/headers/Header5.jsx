@@ -47,10 +47,11 @@ const Header5 = () => {
             <div className="logo">
               <Link href="/">
                 <img 
-                  src="/images/logo/logo.png" 
+                  src="/logo/transtek-logo.png" 
                   alt="TRANSTEK - Inteligencia Estratégica Multidimensional" 
                   width="200"
-                  height="70"
+                  height="auto"
+                  style={{ maxHeight: "70px", width: "auto" }}
                 />
               </Link>
             </div>
