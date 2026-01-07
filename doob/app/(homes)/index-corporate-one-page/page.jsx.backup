@@ -12,34 +12,34 @@ import CallToAction from "@/components/homes/index-corporate-one-page/CallToActi
 import React from "react";
 
 export const metadata = {
-  title: "TRANSTECK | Inteligencia Estratégica Multidimensional",
+  title: "TRANSTEK | Inteligencia Estratégica Multidimensional",
   description:
     "Consultoría especializada en inteligencia multidimensional: prevenir riesgos, amenazas y vulnerabilidades en sectores corporativo, industrial y gubernamental.",
   keywords: "inteligencia estratégica, análisis de riesgos, consultoría seguridad, gestión crisis, protección activos, México",
-  authors: [{ name: "TRANSTECK" }],
-  creator: "TRANSTECK",
-  publisher: "TRANSTECK",
+  authors: [{ name: "TRANSTEK" }],
+  creator: "TRANSTEK",
+  publisher: "TRANSTEK",
   openGraph: {
-    title: "TRANSTECK | Sistema Integral de Seguridad Corporativa",
+    title: "TRANSTEK | Sistema Integral de Seguridad Corporativa",
     description: "Consultoría especializada en inteligencia estratégica multidimensional",
-    url: "https://transteck.vercel.app/index-corporate-one-page",
-    siteName: "TRANSTECK",
+    url: "https://transtek.vercel.app/index-corporate-one-page",
+    siteName: "TRANSTEK",
     locale: "es_MX",
     type: "website",
     images: [
       {
-        url: "/transteck/hero1.webp",
+        url: "/transtek/hero1.webp",
         width: 1920,
         height: 1080,
-        alt: "TRANSTECK - Sistema Integral de Seguridad Corporativa",
+        alt: "TRANSTEK - Sistema Integral de Seguridad Corporativa",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TRANSTECK | Inteligencia Estratégica",
+    title: "TRANSTEK | Inteligencia Estratégica",
     description: "Consultoría especializada en inteligencia multidimensional",
-    images: ["/transteck/hero1.webp"],
+    images: ["/transtek/hero1.webp"],
   },
   robots: {
     index: true,
@@ -53,10 +53,10 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://transteck.vercel.app/index-corporate-one-page",
+    canonical: "https://transtek.vercel.app/index-corporate-one-page",
     languages: {
-      "es-MX": "https://transteck.vercel.app/index-corporate-one-page",
-      "en-US": "https://transteck.vercel.app/en/index-corporate-one-page",
+      "es-MX": "https://transtek.vercel.app/index-corporate-one-page",
+      "en-US": "https://transtek.vercel.app/en/index-corporate-one-page",
     },
   },
 };
@@ -75,7 +75,7 @@ export default function Page() {
         <Hero />
       </section>
 
-      {/* QUIENES SOMOS (Mision, Vision, Valores, Experiencia) */}
+      {/* QUIÉNES SOMOS (Misión, Visión, Valores, Experiencia) */}
       <section id="mision">
         <QuienesSomos />
       </section>
@@ -108,7 +108,7 @@ export default function Page() {
         </div>
       </div>
 
-      {/* METODOLOGIA */}
+      {/* METODOLOGÍA */
       <section id="metodologia">
         <Metodologia />
       </section>
@@ -130,7 +130,7 @@ export default function Page() {
         </div>
       </div>
 
-      {/* CASOS DE EXITO */}
+      {/* CASOS DE ÉXITO */}
       <section id="casos">
         <CasosExito />
       </section>

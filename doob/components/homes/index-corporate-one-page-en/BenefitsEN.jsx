@@ -106,7 +106,7 @@ export default function BenefitsEN() {
               data-sal="slide-up"
               data-sal-duration={700}
             >
-              <h3 className="title w-600">Why Choose TRANSTEK?</h3>
+              <h3 className="title w-600">Why Choose TRANSTECK?</h3>
               <p className="description b1">
                 Our competitive advantages that set us apart
               </p>

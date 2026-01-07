@@ -48,8 +48,8 @@ const Header5EN = () => {
             <div className="logo">
               <Link href="/en/index-corporate-one-page">
                 <img 
-                  src="/logo/transtek-logo.png" 
-                  alt="TRANSTEK - Multidimensional Strategic Intelligence" 
+                  src="/logo/transteck-logo.png" 
+                  alt="TRANSTECK - Multidimensional Strategic Intelligence" 
                   width="260"
                   height="auto"
                   style={{ maxHeight: "91px", width: "auto" }}

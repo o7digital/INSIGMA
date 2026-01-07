@@ -23,7 +23,7 @@ export default function CallToActionEN() {
                   data-sal-duration={700}
                   data-sal-delay={150}
                 >
-                  Contact us for an initial assessment and discover how TRANSTEK can
+                  Contact us for an initial assessment and discover how TRANSTECK can
                   transform information into strategic protection for your organization.
                 </p>
                 <div

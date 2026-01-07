@@ -43,7 +43,7 @@ export default function AboutUsEN() {
             >
               <h2 className="title w-600 mb--20">About Us</h2>
               <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto" }}>
-                TRANSTEK is a consulting firm specialized in multidimensional strategic
+                TRANSTECK is a consulting firm specialized in multidimensional strategic
                 intelligence, dedicated to transforming information into protection and
                 actionable knowledge for organizations facing complex and dynamic
                 environments.

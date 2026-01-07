@@ -3,9 +3,9 @@ import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 const images = [
-  "/transtek/hero1.webp",
-  "/transtek/hero2.webp",
-  "/transtek/hero3.webp",
+  "/transteck/hero1.webp",
+  "/transteck/hero2.webp",
+  "/transteck/hero3.webp",
 ];
 
 export default function Hero() {
@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="hero-slide" style={{ position: "relative", width: "100%", height: "80vh" }}>
         <Image
           src={images[i]}
-          alt={`TRANSTEK - Sistema Integral de Seguridad Corporativa ${i + 1}`}
+          alt={`TRANSTECK - Sistema Integral de Seguridad Corporativa ${i + 1}`}
           fill
           priority={i === 0}
           quality={90}
