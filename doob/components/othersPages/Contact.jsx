@@ -84,8 +84,8 @@ export default function Contact() {
                       <div className="inner">
                         <h4 className="title">Correo</h4>
                         <p>
-                          <a href="mailto:contacto@transtek.com">
-                            contacto@transtek.com
+                          <a href="mailto:contacto@transteck.com">
+                            contacto@transteck.com
                           </a>
                         </p>
                       </div>

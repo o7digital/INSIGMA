@@ -84,8 +84,8 @@ export default function ContactEN() {
                       <div className="inner">
                         <h4 className="title">Email</h4>
                         <p>
-                          <a href="mailto:contacto@transtek.com">
-                            contacto@transtek.com
+                          <a href="mailto:contacto@transteck.com">
+                            contacto@transteck.com
                           </a>
                         </p>
                       </div>

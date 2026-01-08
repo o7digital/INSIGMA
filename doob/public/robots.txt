@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://transtek.vercel.app/sitemap.xml
+Sitemap: https://transteck.vercel.app/sitemap.xml
 
 # Disallow admin and private pages
 Disallow: /api/
@@ -11,5 +11,5 @@ Disallow: /static/
 
 # Allow all images
 Allow: /assets/
-Allow: /transtek/
+Allow: /transteck/
 Allow: /images/

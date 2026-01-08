@@ -67,8 +67,8 @@ export default function PrivacyPolicy() {
       <p className="mb-4">
         Cualquier cambio al presente Aviso de Privacidad será publicado en
         nuestro sitio web{" "}
-        <a href="https://transtek.vercel.app" className="text-blue-600">
-          https://transtek.vercel.app
+        <a href="https://transteck.vercel.app" className="text-blue-600">
+          https://transteck.vercel.app
         </a>
         .
       </p>

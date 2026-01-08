@@ -12,34 +12,34 @@ import CallToActionEN from "@/components/homes/index-corporate-one-page-en/CallT
 import React from "react";
 
 export const metadata = {
-  title: "TRANSTEK | Multidimensional Strategic Intelligence",
+  title: "TRANSTECK | Multidimensional Strategic Intelligence",
   description:
     "Specialized consulting in multidimensional intelligence: preventing risks, threats and vulnerabilities in corporate, industrial and governmental sectors.",
   keywords: "strategic intelligence, risk analysis, security consulting, crisis management, asset protection, Mexico",
-  authors: [{ name: "TRANSTEK" }],
-  creator: "TRANSTEK",
-  publisher: "TRANSTEK",
+  authors: [{ name: "TRANSTECK" }],
+  creator: "TRANSTECK",
+  publisher: "TRANSTECK",
   openGraph: {
-    title: "TRANSTEK | Comprehensive Corporate Security System",
+    title: "TRANSTECK | Comprehensive Corporate Security System",
     description: "Specialized consulting in multidimensional strategic intelligence",
-    url: "https://transtek.vercel.app/en",
-    siteName: "TRANSTEK",
+    url: "https://transteck.vercel.app/en",
+    siteName: "TRANSTECK",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/transtek/hero1.webp",
+        url: "/transteck/hero1.webp",
         width: 1920,
         height: 1080,
-        alt: "TRANSTEK - Comprehensive Corporate Security System",
+        alt: "TRANSTECK - Comprehensive Corporate Security System",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TRANSTEK | Strategic Intelligence",
+    title: "TRANSTECK | Strategic Intelligence",
     description: "Specialized consulting in multidimensional intelligence",
-    images: ["/transtek/hero1.webp"],
+    images: ["/transteck/hero1.webp"],
   },
   robots: {
     index: true,
@@ -53,10 +53,10 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://transtek.vercel.app/en/index-corporate-one-page",
+    canonical: "https://transteck.vercel.app/en/index-corporate-one-page",
     languages: {
-      "es-MX": "https://transtek.vercel.app/index-corporate-one-page",
-      "en-US": "https://transtek.vercel.app/en/index-corporate-one-page",
+      "es-MX": "https://transteck.vercel.app/index-corporate-one-page",
+      "en-US": "https://transteck.vercel.app/en/index-corporate-one-page",
     },
   },
 };

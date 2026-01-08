@@ -17,7 +17,7 @@ export default function Copywrite() {
           </div>
           <div className="col-lg-6 col-md-4 col-sm-12 col-12">
             <div className="copyright-right text-center text-lg-end">
-              <p className="copyright-text">© Derechos Transtek 2025</p>
+              <p className="copyright-text">© Derechos Transteck 2025</p>
             </div>
           </div>
         </div>
