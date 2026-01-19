@@ -42,11 +42,18 @@ export default function QuienesSomos() {
               data-sal-delay={100}
             >
               <h2 className="title w-600 mb--20">Quiénes Somos</h2>
-              <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto" }}>
-                TRANSTECK es una consultoría especializada en inteligencia estratégica
-                multidimensional, dedicada a transformar información en protección y
-                conocimiento accionable para organizaciones que enfrentan entornos
-                complejos y dinámicos.
+              <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto", whiteSpace: "pre-line" }}>
+                Transtek & M7 es una firma especializada en Inteligencia Estratégica, Gestión de Riesgos Sistémicos y Protección de Infraestructura Crítica para instituciones que operan en entornos de alta complejidad y alto impacto.
+
+                No somos una empresa de seguridad privada.
+                Somos un órgano de análisis, anticipación y protección estratégica para decisores e instituciones cuya falla tendría consecuencias nacionales, sanitarias, económicas o políticas.
+
+                PRINCIPIO RECTOR
+                No ofrecemos seguridad.
+                Ofrecemos inteligencia para que su institución no colapse cuando llegue la crisis.
+
+                EL PROBLEMA QUE RESOLVEMOS
+                Las organizaciones críticas toman decisiones sin inteligencia integral, sin modelos de alerta temprana, sin lectura real de amenazas y sin evaluación jurídica prospectiva, lo que genera colapsos operativos, sanciones, daño reputacional, riesgo humano y pérdida de continuidad institucional.
               </p>
             </div>
           </div>
