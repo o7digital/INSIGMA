@@ -4,44 +4,44 @@
 export const serviciosPrincipales = [
   {
     icon: "feather-activity",
-    title: "Inteligencia de Amenazas",
+    title: "Análisis de Riesgos Multidimensionales",
     description:
-      "Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.",
+      "Evaluación integral de factores físicos, digitales y humanos para identificar amenazas potenciales.",
     delay: 0,
   },
   {
     icon: "feather-eye",
-    title: "Riesgo Jurídico y Normativo",
+    title: "Inteligencia Corporativa y Estratégica",
     description:
-      "Evaluación de exposición penal, administrativa, civil y regulatoria, así como brechas frente a estándares nacionales e internacionales.",
+      "Monitoreo y análisis de información crítica para la toma de decisiones estratégicas.",
     delay: 100,
   },
   {
     icon: "feather-briefcase",
-    title: "Continuidad, Crisis y Protección de Infraestructura Crítica",
+    title: "Gestión de Entornos Operativos",
     description:
-      "Diseño de protocolos, cadenas de mando, planes de contingencia y protección de activos estratégicos.",
+      "Optimización y supervisión de operaciones para garantizar continuidad y seguridad.",
     delay: 200,
   },
   {
     icon: "feather-shield",
-    title: "Inteligencia de Amenazas",
+    title: "Análisis de Amenazas y Vulnerabilidades",
     description:
-      "Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.",
+      "Identificación de debilidades y riesgos para implementar medidas preventivas.",
     delay: 300,
   },
   {
     icon: "feather-alert-triangle",
-    title: "Riesgo Jurídico y Normativo",
+    title: "Prevención y Respuesta a Crisis",
     description:
-      "Evaluación de exposición penal, administrativa, civil y regulatoria, así como brechas frente a estándares nacionales e internacionales.",
+      "Protocolos y acciones rápidas para mitigar impactos negativos en situaciones críticas.",
     delay: 400,
   },
   {
     icon: "feather-check-circle",
-    title: "Continuidad, Crisis y Protección de Infraestructura Crítica",
+    title: "Auditorías de Compliance y Normatividad",
     description:
-      "Diseño de protocolos, cadenas de mando, planes de contingencia y protección de activos estratégicos.",
+      "Verificación del cumplimiento de estándares y regulaciones aplicables.",
     delay: 500,
   },
 ];
@@ -52,30 +52,30 @@ export const serviciosPrincipales = [
 export const serviciosComplementarios = [
   {
     icon: "feather-map",
-    title: "Inteligencia de Amenazas",
+    title: "Mapas de riesgo y vulnerabilidades",
     description:
-      "Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.",
+      "Visualización georreferenciada de amenazas y puntos críticos para una gestión más precisa.",
     delay: 0,
   },
   {
     icon: "feather-lock",
-    title: "Riesgo Jurídico y Normativo",
+    title: "Seguridad patrimonial y de activos críticos",
     description:
-      "Evaluación de exposición penal, administrativa, civil y regulatoria, así como brechas frente a estándares nacionales e internacionales.",
+      "Protección de bienes y recursos esenciales para la operación.",
     delay: 100,
   },
   {
     icon: "feather-globe",
-    title: "Continuidad, Crisis y Protección de Infraestructura Crítica",
+    title: "Inteligencia digital y reputación institucional",
     description:
-      "Diseño de protocolos, cadenas de mando, planes de contingencia y protección de activos estratégicos.",
+      "Monitoreo y gestión de imagen corporativa en entornos digitales y redes sociales.",
     delay: 200,
   },
   {
     icon: "feather-users",
-    title: "Inteligencia de Amenazas",
+    title: "Capacitación ejecutiva especializada",
     description:
-      "Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.",
+      "Programas de formación para altos directivos y equipos de seguridad.",
     delay: 300,
   },
 ];

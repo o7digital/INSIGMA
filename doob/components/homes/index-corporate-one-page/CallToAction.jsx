@@ -15,9 +15,17 @@ export default function CallToAction() {
                   data-sal-duration={700}
                   data-sal-delay={100}
                 >
-                  Si su institución opera en un entorno crítico, la anticipación estratégica no es opcional.
+                  ¿Listo para Fortalecer su Seguridad Estratégica?
                 </h2>
-                <p className="description" data-sal="slide-up" data-sal-duration={700} data-sal-delay={150}></p>
+                <p
+                  className="description"
+                  data-sal="slide-up"
+                  data-sal-duration={700}
+                  data-sal-delay={150}
+                >
+                  Contáctenos para una evaluación inicial y descubra cómo TRANSTECK puede
+                  transformar información en protección estratégica para su organización.
+                </p>
                 <div
                   className="call-to-btn"
                   data-sal="slide-up"

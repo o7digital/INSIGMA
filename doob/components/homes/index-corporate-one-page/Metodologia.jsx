@@ -45,8 +45,8 @@ export default function Metodologia() {
             >
               <h2 className="title w-600 mb--20">Nuestra Metodología</h2>
               <p className="description b1">
-                Diagnóstico Integral de Riesgo Estratégico e Inteligencia Aplicada.
-                Evaluación estructural de amenazas, lectura prospectiva de escenarios de crisis, análisis jurídico-normativo y diseño de respuestas estratégicas orientadas a la continuidad institucional.
+                Cuatro pilares estratégicos que fundamentan nuestro enfoque de
+                inteligencia multidimensional
               </p>
             </div>
           </div>

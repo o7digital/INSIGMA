@@ -4,28 +4,28 @@ export default function QuienesSomos() {
   const valores = [
     {
       icon: "feather-award",
-      titulo: "",
-      descripcion: "",
+      titulo: "Integridad",
+      descripcion: "Compromiso absoluto con la ética profesional y el cumplimiento legal",
     },
     {
       icon: "feather-lock",
-      titulo: "",
-      descripcion: "",
+      titulo: "Confidencialidad",
+      descripcion: "Protección rigurosa de la información y los intereses de nuestros clientes",
     },
     {
       icon: "feather-eye",
-      titulo: "",
-      descripcion: "",
+      titulo: "Visión Estratégica",
+      descripcion: "Análisis prospectivo para anticipar riesgos y oportunidades",
     },
     {
       icon: "feather-zap",
-      titulo: "",
-      descripcion: "",
+      titulo: "Innovación",
+      descripcion: "Metodologías avanzadas y tecnología de vanguardia en análisis",
     },
     {
       icon: "feather-shield",
-      titulo: "",
-      descripcion: "",
+      titulo: "Confianza",
+      descripcion: "Relaciones duraderas basadas en resultados verificables",
     },
   ];
 
@@ -42,15 +42,11 @@ export default function QuienesSomos() {
               data-sal-delay={100}
             >
               <h2 className="title w-600 mb--20">Quiénes Somos</h2>
-              <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto", whiteSpace: "pre-line" }}>
-                Transtek & M7 es una firma especializada en Inteligencia Estratégica, Gestión de Riesgos Sistémicos y Protección de Infraestructura Crítica para instituciones que operan en entornos de alta complejidad y alto impacto.
-
-                No somos una empresa de seguridad privada.
-                Somos un órgano de análisis, anticipación y protección estratégica para decisores e instituciones cuya falla tendría consecuencias nacionales, sanitarias, económicas o políticas.
-
-                Principio rector:
-                No ofrecemos seguridad.
-                Ofrecemos inteligencia para que su institución no colapse cuando llegue la crisis.
+              <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto" }}>
+                TRANSTECK es una consultoría especializada en inteligencia estratégica
+                multidimensional, dedicada a transformar información en protección y
+                conocimiento accionable para organizaciones que enfrentan entornos
+                complejos y dinámicos.
               </p>
             </div>
           </div>
@@ -72,7 +68,11 @@ export default function QuienesSomos() {
                 <div className="content">
                   <h3 className="title mb--20">Nuestra Misión</h3>
                   <p className="description b1">
-                    Transtek & M7 es una firma especializada en Inteligencia Estratégica, Gestión de Riesgos Sistémicos y Protección de Infraestructura Crítica para instituciones que operan en entornos de alta complejidad y alto impacto.
+                    Proveer soluciones estratégicas basadas en inteligencia
+                    multidimensional que permitan anticipar y gestionar riesgos
+                    críticos, fortaleciendo la estabilidad, competitividad y
+                    reputación de nuestros clientes en los sectores corporativo,
+                    industrial y gubernamental.
                   </p>
                 </div>
               </div>
@@ -93,8 +93,11 @@ export default function QuienesSomos() {
                 <div className="content">
                   <h3 className="title mb--20">Nuestra Visión</h3>
                   <p className="description b1">
-                    No somos una empresa de seguridad privada.
-                    Somos un órgano de análisis, anticipación y protección estratégica para decisores e instituciones cuya falla tendría consecuencias nacionales, sanitarias, económicas o políticas.
+                    Ser la consultoría líder en inteligencia estratégica en México y
+                    Latinoamérica, reconocida por su capacidad de generar
+                    conocimiento oportuno, integral y accionable que transforme la
+                    forma en que las organizaciones gestionan sus riesgos y
+                    oportunidades.
                   </p>
                 </div>
               </div>
@@ -156,8 +159,19 @@ export default function QuienesSomos() {
                     <i className="feather-briefcase me-2" style={{ color: "#4a90e2" }} />
                     Nuestra Experiencia
                   </h3>
-                  <p className="description b1"></p>
-                  <p className="description b1 mt--20"></p>
+                  <p className="description b1">
+                    Nuestro equipo multidisciplinario ha participado en proyectos
+                    estratégicos de alto impacto en sectores como seguridad
+                    institucional, bioseguridad, industria farmacéutica, logística de
+                    alto riesgo y entorno gubernamental.
+                  </p>
+                  <p className="description b1 mt--20">
+                    Nos respalda una trayectoria comprobada en análisis prospectivo,
+                    gestión de crisis, protección de activos críticos y desarrollo de
+                    capacidades de inteligencia institucional. Trabajamos con
+                    metodologías profesionales reconocidas internacionalmente y con un
+                    enfoque ético basado exclusivamente en fuentes abiertas.
+                  </p>
 
                   <div className="row mt--30">
                     <div className="col-lg-3 col-md-6 col-12 text-center mt--20">
@@ -202,9 +216,13 @@ export default function QuienesSomos() {
               <div className="content">
                 <h5 className="title">
                   <i className="feather-database me-2" style={{ color: "#4a90e2" }} />
-                  {/* Texto intencionalmente reducido */}
+                  Fuentes Abiertas
                 </h5>
-                <p className="description b1"></p>
+                <p className="description b1">
+                  Trabajamos exclusivamente con información de fuentes legales y
+                  verificables, garantizando la ética y legalidad de nuestros
+                  procesos.
+                </p>
               </div>
             </div>
           </div>
@@ -214,9 +232,12 @@ export default function QuienesSomos() {
               <div className="content">
                 <h5 className="title">
                   <i className="feather-layers me-2" style={{ color: "#4a90e2" }} />
-                  {/* Texto intencionalmente reducido */}
+                  Enfoque Multidimensional
                 </h5>
-                <p className="description b1"></p>
+                <p className="description b1">
+                  Integramos análisis político, social, económico, tecnológico y de
+                  seguridad para una visión holística de los riesgos.
+                </p>
               </div>
             </div>
           </div>
@@ -226,9 +247,12 @@ export default function QuienesSomos() {
               <div className="content">
                 <h5 className="title">
                   <i className="feather-users me-2" style={{ color: "#4a90e2" }} />
-                  {/* Texto intencionalmente reducido */}
+                  Equipo Especializado
                 </h5>
-                <p className="description b1"></p>
+                <p className="description b1">
+                  Profesionales con experiencia en inteligencia, seguridad,
+                  análisis geopolítico y gestión de riesgos corporativos.
+                </p>
               </div>
             </div>
           </div>
