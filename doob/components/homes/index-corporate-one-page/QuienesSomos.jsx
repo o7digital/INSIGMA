@@ -213,6 +213,51 @@ export default function QuienesSomos() {
               data-sal-duration={700}
             >
               <h3 className="title w-600">¿Qué nos Diferencia?</h3>
+              <p
+                className="description b1"
+                style={{ whiteSpace: "pre-line", marginTop: "10px" }}
+              >
+                PRINCIPIO RECTOR
+                No ofrecemos seguridad.
+                Ofrecemos inteligencia para que su institución no colapse cuando llegue la crisis.
+
+                EL PROBLEMA QUE RESOLVEMOS
+
+                Las organizaciones críticas toman decisiones sin inteligencia integral, sin modelos de alerta temprana, sin lectura real de amenazas y sin evaluación jurídica prospectiva, lo que genera colapsos operativos, sanciones, daño reputacional, riesgo humano y pérdida de continuidad institucional.
+
+                NUESTRA SOLUCIÓN CENTRAL
+
+                Diagnóstico Integral de Riesgo Estratégico e Inteligencia Aplicada
+
+                1. Inteligencia de Amenazas
+                Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.
+
+                2. Riesgo Jurídico y Normativo
+                Evaluación de exposición penal, administrativa, civil y regulatoria, así como brechas frente a estándares nacionales e internacionales.
+
+                3. Continuidad, Crisis y Protección de Infraestructura Crítica
+                Diseño de protocolos, cadenas de mando, planes de contingencia y protección de activos estratégicos.
+
+                SISTEMAS PROPIOS
+
+                SIPI – Sistema de Inteligencia para la Protección Institucional
+                MATE – Modelo de Alerta Temprana Estratégica
+                Programa de Protección Estratégica Institucional
+
+                PRODUCTO DE ENTRADA
+
+                Evaluación Ejecutiva de Riesgo Crítico (EERC)
+
+                Duración: 30 días
+                Entregables:
+                Informe clasificado
+                Mapa de amenazas
+                Semáforo de vulnerabilidades
+                Escenarios de crisis
+                Evaluación jurídica
+                Recomendaciones estratégicas
+                Hoja de ruta de protección institucional
+              </p>
             </div>
           </div>
         </div>
