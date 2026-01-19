@@ -24,6 +24,19 @@ const M7Technologies = () => {
                 Transtek &amp; M7 no vende servicios de vigilancia.
                 <br />
                 Vende inteligencia estratégica, anticipación, criterio de Estado y continuidad institucional.
+                <br />
+                <br />
+                CLIENTES ESTRATÉGICOS
+                <br />
+                Hospitales y redes de salud
+                <br />
+                Laboratorios, farmacéuticas y biotecnología
+                <br />
+                Gobiernos estatales y municipales
+                <br />
+                Empresas con infraestructura crítica
+                <br />
+                Despachos jurídicos
               </p>
             </div>
           </div>
