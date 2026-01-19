@@ -3,97 +3,62 @@ import React from "react";
 export default function CasosExito() {
   const casos = [
     {
-      sector: "Empresa de Logística y Transporte",
+      sector: "",
       desafio:
-        "Operaciones en corredores de alto riesgo con amenaza constante de robo, extorsión y secuestro de personal y mercancías.",
+        "Por la naturaleza estratégica, institucional y sensible de nuestras intervenciones, los casos de éxito no se exponen públicamente.",
       solucion:
-        "Monitoreo estratégico de rutas críticas, análisis de incidentes en tiempo real, evaluación prospectiva de riesgos por corredor y desarrollo de protocolos de respuesta inmediata.",
-      resultados: [
-        "Reducción del 40% en incidentes de seguridad",
-        "Mejora significativa en tiempos de respuesta ante emergencias",
-        "Optimización de rutas basada en análisis de riesgos",
-        "Implementación de sistema de alertas tempranas",
-      ],
+        "Nuestros clientes operan en entornos donde la discreción, la confidencialidad y la estabilidad institucional son prioritarias.",
+      resultados: [],
       icon: "feather-truck",
     },
     {
-      sector: "Institución Financiera",
+      sector: "",
       desafio:
-        "Protección de múltiples sucursales, prevención de fraudes emergentes y salvaguarda de información sensible de clientes.",
+        "Por la naturaleza estratégica, institucional y sensible de nuestras intervenciones, los casos de éxito no se exponen públicamente.",
       solucion:
-        "Perfilamiento de amenazas externas e internas, monitoreo de patrones de fraude, diagnóstico de vulnerabilidades en procesos y gestión de crisis reputacionales.",
-      resultados: [
-        "Detección temprana de esquemas de fraude antes de materialización",
-        "Fortalecimiento de cultura de seguridad en personal",
-        "Protocolos mejorados de protección de información",
-        "Reducción de incidentes de seguridad física",
-      ],
+        "Nuestros clientes operan en entornos donde la discreción, la confidencialidad y la estabilidad institucional son prioritarias.",
+      resultados: [],
       icon: "feather-briefcase",
     },
     {
-      sector: "Organismo Gubernamental",
+      sector: "",
       desafio:
-        "Protección de funcionarios de alto nivel, seguridad de información clasificada y gestión de manifestaciones públicas.",
+        "Por la naturaleza estratégica, institucional y sensible de nuestras intervenciones, los casos de éxito no se exponen públicamente.",
       solucion:
-        "Centro de inteligencia para monitoreo de amenazas, análisis de redes sociales, protocolos de información clasificada y planes de continuidad operativa.",
-      resultados: [
-        "Anticipación efectiva de eventos críticos y manifestaciones",
-        "Mejora en coordinación interinstitucional",
-        "Capacidades fortalecidas de análisis estratégico",
-        "Protección efectiva de personal e instalaciones",
-      ],
+        "Nuestros clientes operan en entornos donde la discreción, la confidencialidad y la estabilidad institucional son prioritarias.",
+      resultados: [],
       icon: "feather-home",
     },
     {
-      sector: "Industria Farmacéutica",
+      sector: "",
       desafio:
-        "Protección de cadena de suministro, prevención de robo de producto terminado y monitoreo de amenazas emergentes en el sector.",
+        "Por la naturaleza estratégica, institucional y sensible de nuestras intervenciones, los casos de éxito no se exponen públicamente.",
       solucion:
-        "Análisis de vulnerabilidades en la cadena de suministro, inteligencia sobre grupos delictivos especializados, protocolos de seguridad en tránsito y almacenamiento.",
-      resultados: [
-        "Reducción sustancial de pérdidas por robo",
-        "Mejora en seguridad de puntos críticos de la cadena",
-        "Sistema de trazabilidad y alertas implementado",
-        "Colaboración efectiva con autoridades",
-      ],
+        "Nuestros clientes operan en entornos donde la discreción, la confidencialidad y la estabilidad institucional son prioritarias.",
+      resultados: [],
       icon: "feather-package",
     },
   ];
 
   const sectores = [
     {
-      categoria: "Sector Privado",
+      categoria: "",
       items: [
-        "Logística y transporte de carga",
-        "Industria farmacéutica y biotecnología",
-        "Sector energético y minería",
-        "Instituciones financieras y bancarias",
-        "Comercio exterior y aduanas",
-        "Tecnologías de la información",
-        "Retail y comercio organizado",
-        "Manufactura y producción",
+        "Hospitales y redes de salud",
+        "Laboratorios, farmacéuticas y biotecnología",
       ],
     },
     {
-      categoria: "Sector Público",
+      categoria: "",
       items: [
-        "Gobierno federal, estatal y municipal",
-        "Seguridad pública y procuración de justicia",
-        "Salud pública y hospitales",
-        "Protección civil y gestión de emergencias",
-        "Educación superior e investigación",
-        "Infraestructura crítica",
+        "Gobiernos estatales y municipales",
+        "Empresas con infraestructura crítica",
       ],
     },
     {
-      categoria: "Organizaciones Especializadas",
+      categoria: "",
       items: [
-        "ONGs y organizaciones civiles",
-        "Organismos internacionales",
-        "Despachos jurídicos y consultoría",
-        "Firmas de seguridad y protección",
-        "Think tanks y centros de investigación",
-        "Asociaciones empresariales",
+        "Despachos jurídicos",
       ],
     },
   ];
@@ -112,8 +77,7 @@ export default function CasosExito() {
             >
               <h2 className="title w-600 mb--20">Casos de Éxito</h2>
               <p className="description b1">
-                Experiencia comprobada en protección estratégica y gestión de
-                riesgos
+                Por la naturaleza estratégica, institucional y sensible de nuestras intervenciones, los casos de éxito no se exponen públicamente.
               </p>
             </div>
           </div>
@@ -135,7 +99,7 @@ export default function CasosExito() {
                   </div>
                   <div className="content">
                     <h4 className="title mb--20">{caso.sector}</h4>
-                    
+
                     <div className="mb--20">
                       <h6 className="subtitle" style={{ color: "#e74c3c" }}>Desafío:</h6>
                       <p className="description b1">{caso.desafio}</p>
@@ -146,17 +110,19 @@ export default function CasosExito() {
                       <p className="description b1">{caso.solucion}</p>
                     </div>
 
-                    <div>
-                      <h6 className="subtitle" style={{ color: "#27ae60" }}>Resultados:</h6>
-                      <ul className="list-style--1">
-                        {caso.resultados.map((resultado, idx) => (
-                          <li key={idx}>
-                            <i className="feather-check-circle me-2" style={{ color: "#27ae60" }} />
-                            {resultado}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                    {caso.resultados.length > 0 && (
+                      <div>
+                        <h6 className="subtitle" style={{ color: "#27ae60" }}>Resultados:</h6>
+                        <ul className="list-style--1">
+                          {caso.resultados.map((resultado, idx) => (
+                            <li key={idx}>
+                              <i className="feather-check-circle me-2" style={{ color: "#27ae60" }} />
+                              {resultado}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -173,10 +139,7 @@ export default function CasosExito() {
               data-sal-duration={700}
             >
               <h3 className="title w-600">Sectores que Atendemos</h3>
-              <p className="description b1">
-                Experiencia multisectorial para una comprensión integral de
-                riesgos
-              </p>
+              <p className="description b1"></p>
             </div>
           </div>
         </div>

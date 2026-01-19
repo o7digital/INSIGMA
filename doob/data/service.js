@@ -4,44 +4,44 @@
 export const serviciosPrincipales = [
   {
     icon: "feather-activity",
-    title: "Análisis de Riesgos Multidimensionales",
+    title: "Inteligencia de Amenazas",
     description:
-      "Evaluación integral de factores físicos, digitales y humanos para identificar amenazas potenciales.",
+      "Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.",
     delay: 0,
   },
   {
     icon: "feather-eye",
-    title: "Inteligencia Corporativa y Estratégica",
+    title: "Riesgo Jurídico y Normativo",
     description:
-      "Monitoreo y análisis de información crítica para la toma de decisiones estratégicas.",
+      "Evaluación de exposición penal, administrativa, civil y regulatoria, así como brechas frente a estándares nacionales e internacionales.",
     delay: 100,
   },
   {
     icon: "feather-briefcase",
-    title: "Gestión de Entornos Operativos",
+    title: "Continuidad, Crisis y Protección de Infraestructura Crítica",
     description:
-      "Optimización y supervisión de operaciones para garantizar continuidad y seguridad.",
+      "Diseño de protocolos, cadenas de mando, planes de contingencia y protección de activos estratégicos.",
     delay: 200,
   },
   {
     icon: "feather-shield",
-    title: "Análisis de Amenazas y Vulnerabilidades",
+    title: "Inteligencia de Amenazas",
     description:
-      "Identificación de debilidades y riesgos para implementar medidas preventivas.",
+      "Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.",
     delay: 300,
   },
   {
     icon: "feather-alert-triangle",
-    title: "Prevención y Respuesta a Crisis",
+    title: "Riesgo Jurídico y Normativo",
     description:
-      "Protocolos y acciones rápidas para mitigar impactos negativos en situaciones críticas.",
+      "Evaluación de exposición penal, administrativa, civil y regulatoria, así como brechas frente a estándares nacionales e internacionales.",
     delay: 400,
   },
   {
     icon: "feather-check-circle",
-    title: "Auditorías de Compliance y Normatividad",
+    title: "Continuidad, Crisis y Protección de Infraestructura Crítica",
     description:
-      "Verificación del cumplimiento de estándares y regulaciones aplicables.",
+      "Diseño de protocolos, cadenas de mando, planes de contingencia y protección de activos estratégicos.",
     delay: 500,
   },
 ];
@@ -52,30 +52,30 @@ export const serviciosPrincipales = [
 export const serviciosComplementarios = [
   {
     icon: "feather-map",
-    title: "Mapas de riesgo y vulnerabilidades",
+    title: "Inteligencia de Amenazas",
     description:
-      "Visualización georreferenciada de amenazas y puntos críticos para una gestión más precisa.",
+      "Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.",
     delay: 0,
   },
   {
     icon: "feather-lock",
-    title: "Seguridad patrimonial y de activos críticos",
+    title: "Riesgo Jurídico y Normativo",
     description:
-      "Protección de bienes y recursos esenciales para la operación.",
+      "Evaluación de exposición penal, administrativa, civil y regulatoria, así como brechas frente a estándares nacionales e internacionales.",
     delay: 100,
   },
   {
     icon: "feather-globe",
-    title: "Inteligencia digital y reputación institucional",
+    title: "Continuidad, Crisis y Protección de Infraestructura Crítica",
     description:
-      "Monitoreo y gestión de imagen corporativa en entornos digitales y redes sociales.",
+      "Diseño de protocolos, cadenas de mando, planes de contingencia y protección de activos estratégicos.",
     delay: 200,
   },
   {
     icon: "feather-users",
-    title: "Capacitación ejecutiva especializada",
+    title: "Inteligencia de Amenazas",
     description:
-      "Programas de formación para altos directivos y equipos de seguridad.",
+      "Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.",
     delay: 300,
   },
 ];
