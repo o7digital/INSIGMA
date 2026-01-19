@@ -20,7 +20,7 @@ export default function ServiceEN() {
               data-sal-duration={700}
               data-sal-delay={100}
             >
-              <h2 className="title w-600 mb--20">Main Services</h2>
+              <h2 className="title w-600 mb--20">Our Additional Services</h2>
               <p className="description b1">
                 Our key services for the protection and strengthening of your organization.
               </p>
@@ -61,10 +61,8 @@ export default function ServiceEN() {
               data-sal-duration={700}
               data-sal-delay={100}
             >
-              <h2 className="title w-600 mb--20">Complementary Services</h2>
-              <p className="description b1">
-                Additional solutions for a comprehensive strategy.
-              </p>
+              <h2 className="title w-600 mb--20">Services for a Comprehensive Strategy</h2>
+              <p className="description b1"></p>
             </div>
           </div>
         </div>

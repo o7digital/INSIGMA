@@ -4,44 +4,44 @@
 export const mainServicesEN = [
   {
     icon: "feather-activity",
-    title: "Multidimensional Risk Analysis",
+    title: "Threat Intelligence",
     description:
-      "Comprehensive assessment of physical, digital and human factors to identify potential threats.",
+      "Mapping of risk actors and structural, human, technological, and regulatory vulnerabilities, with construction of prospective scenarios.",
     delay: 0,
   },
   {
     icon: "feather-eye",
-    title: "Corporate & Strategic Intelligence",
+    title: "Legal and Regulatory Risk",
     description:
-      "Monitoring and analysis of critical information for strategic decision-making.",
+      "Assessment of criminal, administrative, civil, and regulatory exposure, as well as gaps against national and international standards.",
     delay: 100,
   },
   {
     icon: "feather-briefcase",
-    title: "Operational Environment Management",
+    title: "Continuity, Crisis, and Critical Infrastructure Protection",
     description:
-      "Optimization and supervision of operations to ensure continuity and security.",
+      "Design of protocols, chains of command, contingency plans, and protection of strategic assets.",
     delay: 200,
   },
   {
     icon: "feather-shield",
-    title: "Threat & Vulnerability Analysis",
+    title: "Threat Intelligence",
     description:
-      "Identification of weaknesses and risks to implement preventive measures.",
+      "Mapping of risk actors and structural, human, technological, and regulatory vulnerabilities, with construction of prospective scenarios.",
     delay: 300,
   },
   {
     icon: "feather-alert-triangle",
-    title: "Crisis Prevention & Response",
+    title: "Legal and Regulatory Risk",
     description:
-      "Protocols and rapid actions to mitigate negative impacts in critical situations.",
+      "Assessment of criminal, administrative, civil, and regulatory exposure, as well as gaps against national and international standards.",
     delay: 400,
   },
   {
     icon: "feather-check-circle",
-    title: "Compliance & Regulatory Audits",
+    title: "Continuity, Crisis, and Critical Infrastructure Protection",
     description:
-      "Verification of compliance with applicable standards and regulations.",
+      "Design of protocols, chains of command, contingency plans, and protection of strategic assets.",
     delay: 500,
   },
 ];
@@ -52,30 +52,30 @@ export const mainServicesEN = [
 export const complementaryServicesEN = [
   {
     icon: "feather-map",
-    title: "Risk and vulnerability mapping",
+    title: "Threat Intelligence",
     description:
-      "Geo-referenced visualization of threats and critical points for more precise management.",
+      "Mapping of risk actors and structural, human, technological, and regulatory vulnerabilities, with construction of prospective scenarios.",
     delay: 0,
   },
   {
     icon: "feather-lock",
-    title: "Asset and critical infrastructure security",
+    title: "Legal and Regulatory Risk",
     description:
-      "Protection of essential goods and resources for operations.",
+      "Assessment of criminal, administrative, civil, and regulatory exposure, as well as gaps against national and international standards.",
     delay: 100,
   },
   {
     icon: "feather-globe",
-    title: "Digital intelligence and institutional reputation",
+    title: "Continuity, Crisis, and Critical Infrastructure Protection",
     description:
-      "Monitoring and management of corporate image in digital environments and social networks.",
+      "Design of protocols, chains of command, contingency plans, and protection of strategic assets.",
     delay: 200,
   },
   {
     icon: "feather-users",
-    title: "Specialized executive training",
+    title: "Threat Intelligence",
     description:
-      "Training programs for senior executives and security teams.",
+      "Mapping of risk actors and structural, human, technological, and regulatory vulnerabilities, with construction of prospective scenarios.",
     delay: 300,
   },
 ];

@@ -19,6 +19,24 @@ const M7TechnologiesEN = () => {
                 operations, optimize efficiency, and strengthen technological infrastructure 
                 effectiveness. As TRANSTECK's strategic partner, M7 Technologies brings decades 
                 of experience in implementing specialized technologies for private and government sectors.
+                <br />
+                <br />
+                Transtek &amp; M7 does not sell surveillance services.
+                <br />
+                It provides strategic intelligence, anticipation, state-level judgment, and institutional continuity.
+                <br />
+                <br />
+                <strong>Strategic Clients</strong>
+                <br />
+                Hospitals and health networks
+                <br />
+                Laboratories, pharmaceuticals, and biotechnology
+                <br />
+                State and municipal governments
+                <br />
+                Companies with critical infrastructure
+                <br />
+                Law firms
               </p>
             </div>
           </div>

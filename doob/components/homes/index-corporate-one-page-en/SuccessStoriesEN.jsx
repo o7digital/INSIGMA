@@ -3,97 +3,62 @@ import React from "react";
 export default function SuccessStoriesEN() {
   const cases = [
     {
-      sector: "Logistics and Transportation Company",
+      sector: "",
       desafio:
-        "Operations in high-risk corridors with constant threat of theft, extortion and kidnapping of personnel and merchandise.",
+        "Due to the strategic, institutional, and sensitive nature of our interventions, success stories are not disclosed publicly.",
       solucion:
-        "Strategic monitoring of critical routes, real-time incident analysis, prospective risk assessment by corridor and development of immediate response protocols.",
-      resultados: [
-        "40% reduction in security incidents",
-        "Significant improvement in emergency response times",
-        "Route optimization based on risk analysis",
-        "Implementation of early warning system",
-      ],
+        "Our clients operate in environments where discretion, confidentiality, and institutional stability are priorities.",
+      resultados: [],
       icon: "feather-truck",
     },
     {
-      sector: "Financial Institution",
+      sector: "",
       desafio:
-        "Protection of multiple branches, prevention of emerging fraud and safeguarding of sensitive customer information.",
+        "Due to the strategic, institutional, and sensitive nature of our interventions, success stories are not disclosed publicly.",
       solucion:
-        "Profiling of external and internal threats, fraud pattern monitoring, process vulnerability diagnosis and reputational crisis management.",
-      resultados: [
-        "Early detection of fraud schemes before materialization",
-        "Strengthening of security culture among personnel",
-        "Improved information protection protocols",
-        "Reduction of physical security incidents",
-      ],
+        "Our clients operate in environments where discretion, confidentiality, and institutional stability are priorities.",
+      resultados: [],
       icon: "feather-briefcase",
     },
     {
-      sector: "Government Agency",
+      sector: "",
       desafio:
-        "Protection of high-level officials, classified information security and management of public demonstrations.",
+        "Due to the strategic, institutional, and sensitive nature of our interventions, success stories are not disclosed publicly.",
       solucion:
-        "Intelligence center for threat monitoring, social media analysis, classified information protocols and operational continuity plans.",
-      resultados: [
-        "Effective anticipation of critical events and demonstrations",
-        "Improvement in inter-institutional coordination",
-        "Strengthened strategic analysis capabilities",
-        "Effective protection of personnel and facilities",
-      ],
+        "Our clients operate in environments where discretion, confidentiality, and institutional stability are priorities.",
+      resultados: [],
       icon: "feather-home",
     },
     {
-      sector: "Pharmaceutical Industry",
+      sector: "",
       desafio:
-        "Supply chain protection, prevention of finished product theft and monitoring of emerging threats in the sector.",
+        "Due to the strategic, institutional, and sensitive nature of our interventions, success stories are not disclosed publicly.",
       solucion:
-        "Supply chain vulnerability analysis, intelligence on specialized criminal groups, security protocols for transit and storage.",
-      resultados: [
-        "Substantial reduction of losses due to theft",
-        "Improvement in security of critical chain points",
-        "Implemented traceability and alert system",
-        "Effective collaboration with authorities",
-      ],
+        "Our clients operate in environments where discretion, confidentiality, and institutional stability are priorities.",
+      resultados: [],
       icon: "feather-package",
     },
   ];
 
   const sectors = [
     {
-      categoria: "Private Sector",
+      categoria: "",
       items: [
-        "Logistics and freight transportation",
-        "Pharmaceutical and biotechnology industry",
-        "Energy and mining sector",
-        "Financial and banking institutions",
-        "Foreign trade and customs",
-        "Information technologies",
-        "Retail and organized commerce",
-        "Manufacturing and production",
+        "Hospitals and health networks",
+        "Laboratories, pharmaceuticals, and biotechnology",
       ],
     },
     {
-      categoria: "Public Sector",
+      categoria: "",
       items: [
-        "Federal, state and municipal government",
-        "Public security and law enforcement",
-        "Public health and hospitals",
-        "Civil protection and emergency management",
-        "Higher education and research",
-        "Critical infrastructure",
+        "State and municipal governments",
+        "Companies with critical infrastructure",
       ],
     },
     {
-      categoria: "Specialized Organizations",
+      categoria: "",
       items: [
-        "NGOs and civil organizations",
-        "International organizations",
-        "Law firms and consultancies",
-        "Security and protection firms",
-        "Think tanks and research centers",
-        "Business associations",
+        "Law firms",
       ],
     },
   ];
@@ -112,7 +77,7 @@ export default function SuccessStoriesEN() {
             >
               <h2 className="title w-600 mb--20">Success Stories</h2>
               <p className="description b1">
-                Proven experience in strategic protection and risk management
+                Due to the strategic, institutional, and sensitive nature of our interventions, success stories are not disclosed publicly.
               </p>
             </div>
           </div>
@@ -145,17 +110,19 @@ export default function SuccessStoriesEN() {
                       <p className="description b1">{caso.solucion}</p>
                     </div>
 
-                    <div>
-                      <h6 className="subtitle" style={{ color: "#27ae60" }}>Results:</h6>
-                      <ul className="list-style--1">
-                        {caso.resultados.map((resultado, idx) => (
-                          <li key={idx}>
-                            <i className="feather-check-circle me-2" style={{ color: "#27ae60" }} />
-                            {resultado}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                    {caso.resultados.length > 0 && (
+                      <div>
+                        <h6 className="subtitle" style={{ color: "#27ae60" }}>Results:</h6>
+                        <ul className="list-style--1">
+                          {caso.resultados.map((resultado, idx) => (
+                            <li key={idx}>
+                              <i className="feather-check-circle me-2" style={{ color: "#27ae60" }} />
+                              {resultado}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

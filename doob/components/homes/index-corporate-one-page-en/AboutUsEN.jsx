@@ -42,11 +42,18 @@ export default function AboutUsEN() {
               data-sal-delay={100}
             >
               <h2 className="title w-600 mb--20">About Us</h2>
-              <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto" }}>
-                TRANSTECK is a consulting firm specialized in multidimensional strategic
-                intelligence, dedicated to transforming information into protection and
-                actionable knowledge for organizations facing complex and dynamic
-                environments.
+              <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto", whiteSpace: "pre-line" }}>
+                Transtek & M7 is a firm specialized in strategic intelligence, systemic risk management, and critical infrastructure protection for institutions operating in highly complex, high-impact environments.
+
+                We are not a private security company.
+                We are an analysis, anticipation, and strategic protection body for decision makers and institutions whose failure would have national, health, economic, or political consequences.
+
+                Guiding principle:
+                We do not offer security.
+                We offer intelligence so your institution does not collapse when the crisis arrives.
+
+                The problem we solve:
+                Critical organizations make decisions without comprehensive intelligence, without early-warning models, without real threat reading, and without prospective legal assessment, leading to operational collapses, sanctions, reputational damage, human risk, and loss of institutional continuity.
               </p>
             </div>
           </div>
@@ -67,13 +74,7 @@ export default function AboutUsEN() {
                 </div>
                 <div className="content">
                   <h3 className="title mb--20">Our Mission</h3>
-                  <p className="description b1">
-                    To provide strategic solutions based on multidimensional
-                    intelligence that enable anticipation and management of critical
-                    risks, strengthening the stability, competitiveness and
-                    reputation of our clients in corporate, industrial and
-                    governmental sectors.
-                  </p>
+                  <p className="description b1">Transtek &amp; M7 is a firm specialized in strategic intelligence, systemic risk management, and critical infrastructure protection for institutions operating in highly complex, high-impact environments.</p>
                 </div>
               </div>
             </div>
@@ -92,12 +93,7 @@ export default function AboutUsEN() {
                 </div>
                 <div className="content">
                   <h3 className="title mb--20">Our Vision</h3>
-                  <p className="description b1">
-                    To be the leading strategic intelligence consultancy in Mexico and
-                    Latin America, recognized for its ability to generate timely,
-                    comprehensive and actionable knowledge that transforms the way
-                    organizations manage their risks and opportunities.
-                  </p>
+                  <p className="description b1">We are not a private security company. We are an analysis, anticipation, and strategic protection body for decision makers and institutions whose failure would have national, health, economic, or political consequences.</p>
                 </div>
               </div>
             </div>
@@ -205,6 +201,18 @@ export default function AboutUsEN() {
               data-sal-duration={700}
             >
               <h3 className="title w-600">What Sets Us Apart?</h3>
+              <div className="description b1" style={{ maxWidth: "900px", margin: "10px auto 0", textAlign: "left" }}>
+                <p className="mb--10">Guiding principle: we do not offer security. We offer intelligence so your institution does not collapse when the crisis arrives.</p>
+                <p className="mb--10">The problem we solve: critical organizations make decisions without comprehensive intelligence, without early-warning models, without real threat reading, and without prospective legal assessment, leading to operational collapses, sanctions, reputational damage, human risk, and loss of institutional continuity.</p>
+                <p className="mb--10">Our central solution: Comprehensive Strategic Risk Diagnosis and Applied Intelligence.</p>
+                <ul style={{ paddingLeft: "18px", marginBottom: "16px" }}>
+                  <li>Threat intelligence: mapping risk actors and structural, human, technological, and regulatory vulnerabilities, with construction of prospective scenarios.</li>
+                  <li>Legal and regulatory risk: assessment of criminal, administrative, civil, and regulatory exposure, as well as gaps against national and international standards.</li>
+                  <li>Continuity, crisis, and critical infrastructure protection: design of protocols, chains of command, contingency plans, and protection of strategic assets.</li>
+                </ul>
+                <p className="mb--10">Proprietary systems: SIPI – Intelligence System for Institutional Protection; MATE – Strategic Early Warning Model; Institutional Strategic Protection Program.</p>
+                <p className="mb--0">Entry product: Executive Critical Risk Assessment (ECRA). Duration: 30 days. Deliverables: Classified report; threat map; vulnerability traffic light; crisis scenarios; legal assessment; strategic recommendations; institutional protection roadmap.</p>
+              </div>
             </div>
           </div>
         </div>
