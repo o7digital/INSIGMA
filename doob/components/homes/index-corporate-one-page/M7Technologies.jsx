@@ -26,7 +26,7 @@ const M7Technologies = () => {
                 Vende inteligencia estratégica, anticipación, criterio de Estado y continuidad institucional.
                 <br />
                 <br />
-                CLIENTES ESTRATÉGICOS
+                <strong>Clientes Estratégicos</strong>
                 <br />
                 Hospitales y redes de salud
                 <br />

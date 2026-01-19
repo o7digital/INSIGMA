@@ -43,16 +43,16 @@ export default function QuienesSomos() {
             >
               <h2 className="title w-600 mb--20">Quiénes Somos</h2>
               <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto", whiteSpace: "pre-line" }}>
-                Transtek & M7 es una firma especializada en Inteligencia Estratégica, Gestión de Riesgos Sistémicos y Protección de Infraestructura Crítica para instituciones que operan en entornos de alta complejidad y alto impacto.
+                Transtek & M7 es una firma especializada en inteligencia estratégica, gestión de riesgos sistémicos y protección de infraestructura crítica para instituciones que operan en entornos de alta complejidad y alto impacto.
 
                 No somos una empresa de seguridad privada.
                 Somos un órgano de análisis, anticipación y protección estratégica para decisores e instituciones cuya falla tendría consecuencias nacionales, sanitarias, económicas o políticas.
 
-                PRINCIPIO RECTOR
+                Principio rector:
                 No ofrecemos seguridad.
                 Ofrecemos inteligencia para que su institución no colapse cuando llegue la crisis.
 
-                EL PROBLEMA QUE RESOLVEMOS
+                El problema que resolvemos:
                 Las organizaciones críticas toman decisiones sin inteligencia integral, sin modelos de alerta temprana, sin lectura real de amenazas y sin evaluación jurídica prospectiva, lo que genera colapsos operativos, sanciones, daño reputacional, riesgo humano y pérdida de continuidad institucional.
               </p>
             </div>
@@ -213,51 +213,26 @@ export default function QuienesSomos() {
               data-sal-duration={700}
             >
               <h3 className="title w-600">¿Qué nos Diferencia?</h3>
-              <p
-                className="description b1"
-                style={{ whiteSpace: "pre-line", marginTop: "10px" }}
-              >
-                PRINCIPIO RECTOR
-                No ofrecemos seguridad.
-                Ofrecemos inteligencia para que su institución no colapse cuando llegue la crisis.
-
-                EL PROBLEMA QUE RESOLVEMOS
-
-                Las organizaciones críticas toman decisiones sin inteligencia integral, sin modelos de alerta temprana, sin lectura real de amenazas y sin evaluación jurídica prospectiva, lo que genera colapsos operativos, sanciones, daño reputacional, riesgo humano y pérdida de continuidad institucional.
-
-                NUESTRA SOLUCIÓN CENTRAL
-
-                Diagnóstico Integral de Riesgo Estratégico e Inteligencia Aplicada
-
-                1. Inteligencia de Amenazas
-                Mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.
-
-                2. Riesgo Jurídico y Normativo
-                Evaluación de exposición penal, administrativa, civil y regulatoria, así como brechas frente a estándares nacionales e internacionales.
-
-                3. Continuidad, Crisis y Protección de Infraestructura Crítica
-                Diseño de protocolos, cadenas de mando, planes de contingencia y protección de activos estratégicos.
-
-                SISTEMAS PROPIOS
-
-                SIPI – Sistema de Inteligencia para la Protección Institucional
-                MATE – Modelo de Alerta Temprana Estratégica
-                Programa de Protección Estratégica Institucional
-
-                PRODUCTO DE ENTRADA
-
-                Evaluación Ejecutiva de Riesgo Crítico (EERC)
-
-                Duración: 30 días
-                Entregables:
-                Informe clasificado
-                Mapa de amenazas
-                Semáforo de vulnerabilidades
-                Escenarios de crisis
-                Evaluación jurídica
-                Recomendaciones estratégicas
-                Hoja de ruta de protección institucional
-              </p>
+              <div className="description b1" style={{ maxWidth: "900px", margin: "10px auto 0", textAlign: "left" }}>
+                <p className="mb--10">
+                  Principio rector: No ofrecemos seguridad. Ofrecemos inteligencia para que su institución no colapse cuando llegue la crisis.
+                </p>
+                <p className="mb--10">
+                  El problema que resolvemos: las organizaciones críticas toman decisiones sin inteligencia integral, sin modelos de alerta temprana, sin lectura real de amenazas y sin evaluación jurídica prospectiva, lo que genera colapsos operativos, sanciones, daño reputacional, riesgo humano y pérdida de continuidad institucional.
+                </p>
+                <p className="mb--10">Nuestra solución central: Diagnóstico Integral de Riesgo Estratégico e Inteligencia Aplicada.</p>
+                <ul style={{ paddingLeft: "18px", marginBottom: "16px" }}>
+                  <li>Inteligencia de amenazas: mapeo de actores de riesgo, vulnerabilidades estructurales, humanas, tecnológicas y normativas, con construcción de escenarios prospectivos.</li>
+                  <li>Riesgo jurídico y normativo: evaluación de exposición penal, administrativa, civil y regulatoria, así como brechas frente a estándares nacionales e internacionales.</li>
+                  <li>Continuidad, crisis y protección de infraestructura crítica: diseño de protocolos, cadenas de mando, planes de contingencia y protección de activos estratégicos.</li>
+                </ul>
+                <p className="mb--10">
+                  Sistemas propios: SIPI – Sistema de Inteligencia para la Protección Institucional; MATE – Modelo de Alerta Temprana Estratégica; Programa de Protección Estratégica Institucional.
+                </p>
+                <p className="mb--0">
+                  Producto de entrada: Evaluación Ejecutiva de Riesgo Crítico (EERC). Duración: 30 días. Entregables: Informe clasificado; mapa de amenazas; semáforo de vulnerabilidades; escenarios de crisis; evaluación jurídica; recomendaciones estratégicas; hoja de ruta de protección institucional.
+                </p>
+              </div>
             </div>
           </div>
         </div>
