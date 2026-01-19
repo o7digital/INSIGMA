@@ -19,6 +19,11 @@ const M7Technologies = () => {
                 optimizar la eficiencia y robustecer la efectividad de su infraestructura tecnológica. 
                 Como socio estratégico de TRANSTECK, M7 Technologies aporta décadas de experiencia en 
                 implementación de tecnologías especializadas para sector privado y gobierno.
+                <br />
+                <br />
+                Transtek &amp; M7 no vende servicios de vigilancia.
+                <br />
+                Vende inteligencia estratégica, anticipación, criterio de Estado y continuidad institucional.
               </p>
             </div>
           </div>
