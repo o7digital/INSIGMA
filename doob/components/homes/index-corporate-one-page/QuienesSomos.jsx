@@ -29,6 +29,20 @@ export default function QuienesSomos() {
     },
   ];
 
+  const fundadorEspecialidades = [
+    "Protección integral de activos estratégicos",
+    "Gestión de riesgos y resiliencia organizacional",
+    "Ciberseguridad e inteligencia operativa",
+    "Análisis estratégico para la alta dirección",
+  ];
+
+  const fundadorValor = [
+    "Diagnóstico ejecutivo de riesgos y visibilidad real de la exposición del negocio.",
+    "Arquitecturas de seguridad integradas: física, tecnológica y ciberseguridad.",
+    "Protección de infraestructura crítica e información sensible.",
+    "Continuidad operativa y respuesta estratégica ante crisis.",
+  ];
+
   return (
     <div className="rainbow-about-area rainbow-section-gap">
       <div className="container">
@@ -55,6 +69,91 @@ export default function QuienesSomos() {
                 El problema que resolvemos:
                 Las organizaciones críticas toman decisiones sin inteligencia integral, sin modelos de alerta temprana, sin lectura real de amenazas y sin evaluación jurídica prospectiva, lo que genera colapsos operativos, sanciones, daño reputacional, riesgo humano y pérdida de continuidad institucional.
               </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Presentación del fundador */}
+        <div className="row mt--60">
+          <div className="col-lg-12">
+            <div
+              className="rainbow-box-card card-style-default"
+              data-sal="slide-up"
+              data-sal-duration={700}
+              data-sal-delay={120}
+            >
+              <div className="inner">
+                <div className="row row--30 align-items-start">
+                  <div className="col-lg-7 col-12">
+                    <div className="content">
+                      <span
+                        className="subtitle"
+                        style={{
+                          color: "#4a90e2",
+                          fontWeight: 600,
+                          letterSpacing: "0.08em",
+                          textTransform: "uppercase",
+                        }}
+                      >
+                        Presentación del fundador
+                      </span>
+                      <h3 className="title mt--15 mb--10">Dr. Bernardo Félix-Díaz</h3>
+                      <p className="description b1 mb--10">
+                        Asesor estratégico en seguridad con más de 30 años de
+                        experiencia en protección de activos críticos, gestión de
+                        riesgos, ciberseguridad e inteligencia operativa.
+                      </p>
+                      <p className="description b1 mb--10">
+                        Ha acompañado a instituciones y corporativos de alta
+                        exposición en el diseño de estrategias para anticipar
+                        amenazas, proteger operaciones críticas y sostener la
+                        continuidad del negocio.
+                      </p>
+                      <p className="description b1 mb--0">
+                        Su trayectoria abarca gobierno, infraestructura crítica,
+                        sector salud, industria farmacéutica, logística
+                        internacional y corporativos multinacionales, con un
+                        enfoque integrado y orientado a la resiliencia
+                        organizacional.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-5 col-12">
+                    <div className="content">
+                      <h5 className="title mb--15">
+                        <i
+                          className="feather-user me-2"
+                          style={{ color: "#4a90e2" }}
+                        />
+                        Áreas de especialidad
+                      </h5>
+                      <ul style={{ paddingLeft: "18px", marginBottom: "24px" }}>
+                        {fundadorEspecialidades.map((item, index) => (
+                          <li key={index} className="description b1 mb--10">
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+
+                      <h5 className="title mb--15">
+                        <i
+                          className="feather-activity me-2"
+                          style={{ color: "#4a90e2" }}
+                        />
+                        Valor estratégico
+                      </h5>
+                      <ul style={{ paddingLeft: "18px", marginBottom: 0 }}>
+                        {fundadorValor.map((item, index) => (
+                          <li key={index} className="description b1 mb--10">
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
