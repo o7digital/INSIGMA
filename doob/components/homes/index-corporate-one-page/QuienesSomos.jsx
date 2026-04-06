@@ -73,7 +73,7 @@ export default function QuienesSomos() {
           </div>
         </div>
 
-        {/* Presentación del fundador */}
+        {/* Presentación de la empresa */}
         <div className="row mt--60">
           <div className="col-lg-12">
             <div
@@ -95,26 +95,26 @@ export default function QuienesSomos() {
                           textTransform: "uppercase",
                         }}
                       >
-                        Presentación del fundador
+                        Presentación de La Empresa
                       </span>
-                      <h3 className="title mt--15 mb--10">Dr. Bernardo Félix-Díaz</h3>
                       <p className="description b1 mb--10">
-                        Asesor estratégico en seguridad con más de 30 años de
-                        experiencia en protección de activos críticos, gestión de
-                        riesgos, ciberseguridad e inteligencia operativa.
+                        Hemos asesorado estratégicamente en seguridad por más de
+                        30 años, con experiencia en protección de activos
+                        críticos, gestión de riesgos, ciberseguridad e
+                        inteligencia operativa.
                       </p>
                       <p className="description b1 mb--10">
-                        Ha acompañado a instituciones y corporativos de alta
+                        Hemos acompañado a instituciones y corporativos de alta
                         exposición en el diseño de estrategias para anticipar
                         amenazas, proteger operaciones críticas y sostener la
                         continuidad del negocio.
                       </p>
                       <p className="description b1 mb--0">
-                        Su trayectoria abarca gobierno, infraestructura crítica,
-                        sector salud, industria farmacéutica, logística
-                        internacional y corporativos multinacionales, con un
-                        enfoque integrado y orientado a la resiliencia
-                        organizacional.
+                        Hemos desarrollado trayectoria en gobierno,
+                        infraestructura crítica, sector salud, industria
+                        farmacéutica, logística internacional y corporativos
+                        multinacionales, con un enfoque integrado y orientado a
+                        la resiliencia organizacional.
                       </p>
                     </div>
                   </div>
