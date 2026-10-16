@@ -47,13 +47,7 @@ const Header5 = () => {
           <div className="col-lg-3 col-md-6 col-6">
             <div className="logo">
               <Link href="/">
-                <img 
-                  src="/logo/transteck-logo.png" 
-                  alt="TRANSTECK - Inteligencia Estratégica Multidimensional" 
-                  width="260"
-                  height="auto"
-                  style={{ maxHeight: "91px", width: "auto" }}
-                />
+                <span style={{ fontSize: "20px", fontWeight: 600, lineHeight: 1.2 }}>Transocean Systems</span>
               </Link>
             </div>
           </div>

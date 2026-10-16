@@ -17,11 +17,11 @@ const M7Technologies = () => {
                 M7 Technologies facilita el éxito de las organizaciones en la era digital mediante 
                 soluciones propias y productos tecnológicos diseñados para revolucionar sus operaciones, 
                 optimizar la eficiencia y robustecer la efectividad de su infraestructura tecnológica. 
-                Como socio estratégico de TRANSTECK, M7 Technologies aporta décadas de experiencia en 
+                Como socio estratégico de Transocean Systems, M7 Technologies aporta décadas de experiencia en
                 implementación de tecnologías especializadas para sector privado y gobierno.
                 <br />
                 <br />
-                Transtek &amp; M7 no vende servicios de vigilancia.
+                Transocean Systems &amp; M7 no vende servicios de vigilancia.
                 <br />
                 Vende inteligencia estratégica, anticipación, criterio de Estado y continuidad institucional.
                 <br />
@@ -236,7 +236,7 @@ const M7Technologies = () => {
                 Potenciamos su transformación digital con tecnología de vanguardia
               </h3>
               <p className="description mb--30" style={{ fontSize: '18px', maxWidth: '800px', margin: '0 auto 30px' }}>
-                M7 Technologies y TRANSTECK trabajan juntos para ofrecer soluciones integrales que 
+                M7 Technologies y Transocean Systems trabajan juntos para ofrecer soluciones integrales que
                 combinan inteligencia estratégica con implementación tecnológica de primer nivel. 
                 Descubra cómo podemos ayudarle a alcanzar sus objetivos de negocio y seguridad.
               </p>

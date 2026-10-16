@@ -1,7 +1,6 @@
 "use client";
 import { menuItems } from "@/data/menu";
 import { closeMenu } from "@/utlis/toggleMenu";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useRef } from "react";
@@ -93,20 +92,7 @@ export default function MobileMenu() {
         <div className="header-top">
           <div className="logo">
             <Link href={`/`}>
-              <Image
-                className="logo-light"
-                alt="Corporate Logo"
-                src="/assets/images/logo/logo.png"
-                width={288}
-                height={100}
-              />
-              <Image
-                className="logo-dark"
-                alt="Corporate Logo"
-                src="/assets/images/logo/logo-dark.png"
-                width={288}
-                height={100}
-              />
+              <span>Transocean Systems</span>
             </Link>
           </div>
           <div className="close-menu">

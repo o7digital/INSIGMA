@@ -1,13 +1,13 @@
 import Home from "./(homes)/index-corporate-one-page/page";
 
 export const metadata = {
-  title: "TRANSTEK | Inteligencia Estratégica Multidimensional",
+  title: "Transocean Systems | Inteligencia Estratégica Multidimensional",
   description: "Consultoría especializada en inteligencia multidimensional",
   alternates: {
-    canonical: "https://transtek.vercel.app",
+    canonical: "https://www.transoceansystems.com",
     languages: {
-      "es-MX": "https://transtek.vercel.app",
-      "en-US": "https://transtek.vercel.app/en",
+      "es-MX": "https://www.transoceansystems.com",
+      "en-US": "https://www.transoceansystems.com/en",
     },
   },
 };

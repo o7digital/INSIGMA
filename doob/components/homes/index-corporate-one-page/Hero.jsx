@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="hero-slide" style={{ position: "relative", width: "100%", height: "80vh" }}>
         <Image
           src={images[i]}
-          alt={`TRANSTECK - Sistema Integral de Seguridad Corporativa ${i + 1}`}
+          alt={`Transocean Systems - Sistema Integral de Seguridad Corporativa ${i + 1}`}
           fill
           priority={i === 0}
           quality={90}

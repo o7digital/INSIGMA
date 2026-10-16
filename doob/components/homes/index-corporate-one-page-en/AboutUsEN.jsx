@@ -43,7 +43,7 @@ export default function AboutUsEN() {
             >
               <h2 className="title w-600 mb--20">About Us</h2>
               <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto", whiteSpace: "pre-line" }}>
-                Transtek & M7 is a firm specialized in strategic intelligence, systemic risk management, and critical infrastructure protection for institutions operating in highly complex, high-impact environments.
+                Transocean Systems & M7 is a firm specialized in strategic intelligence, systemic risk management, and critical infrastructure protection for institutions operating in highly complex, high-impact environments.
 
                 We are not a private security company.
                 We are an analysis, anticipation, and strategic protection body for decision makers and institutions whose failure would have national, health, economic, or political consequences.
@@ -74,7 +74,7 @@ export default function AboutUsEN() {
                 </div>
                 <div className="content">
                   <h3 className="title mb--20">Our Mission</h3>
-                  <p className="description b1">Transtek &amp; M7 is a firm specialized in strategic intelligence, systemic risk management, and critical infrastructure protection for institutions operating in highly complex, high-impact environments.</p>
+                  <p className="description b1">Transocean Systems &amp; M7 is a firm specialized in strategic intelligence, systemic risk management, and critical infrastructure protection for institutions operating in highly complex, high-impact environments.</p>
                 </div>
               </div>
             </div>

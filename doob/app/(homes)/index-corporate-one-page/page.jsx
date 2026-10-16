@@ -12,18 +12,19 @@ import CallToAction from "@/components/homes/index-corporate-one-page/CallToActi
 import React from "react";
 
 export const metadata = {
-  title: "TRANSTECK | Inteligencia Estratégica Multidimensional",
+  metadataBase: new URL("https://www.transoceansystems.com"),
+  title: "Transocean Systems | Inteligencia Estratégica Multidimensional",
   description:
     "Consultoría especializada en inteligencia multidimensional: prevenir riesgos, amenazas y vulnerabilidades en sectores corporativo, industrial y gubernamental.",
   keywords: "inteligencia estratégica, análisis de riesgos, consultoría seguridad, gestión crisis, protección activos, México",
-  authors: [{ name: "TRANSTECK" }],
-  creator: "TRANSTECK",
-  publisher: "TRANSTECK",
+  authors: [{ name: "Transocean Systems" }],
+  creator: "Transocean Systems",
+  publisher: "Transocean Systems",
   openGraph: {
-    title: "TRANSTECK | Sistema Integral de Seguridad Corporativa",
+    title: "Transocean Systems | Sistema Integral de Seguridad Corporativa",
     description: "Consultoría especializada en inteligencia estratégica multidimensional",
-    url: "https://transteck.vercel.app/index-corporate-one-page",
-    siteName: "TRANSTECK",
+    url: "https://www.transoceansystems.com/index-corporate-one-page",
+    siteName: "Transocean Systems",
     locale: "es_MX",
     type: "website",
     images: [
@@ -31,13 +32,13 @@ export const metadata = {
         url: "/transteck/hero1.webp",
         width: 1920,
         height: 1080,
-        alt: "TRANSTECK - Sistema Integral de Seguridad Corporativa",
+        alt: "Transocean Systems - Sistema Integral de Seguridad Corporativa",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TRANSTECK | Inteligencia Estratégica",
+    title: "Transocean Systems | Inteligencia Estratégica",
     description: "Consultoría especializada en inteligencia multidimensional",
     images: ["/transteck/hero1.webp"],
   },
@@ -53,10 +54,10 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://transteck.vercel.app/index-corporate-one-page",
+    canonical: "https://www.transoceansystems.com/index-corporate-one-page",
     languages: {
-      "es-MX": "https://transteck.vercel.app/index-corporate-one-page",
-      "en-US": "https://transteck.vercel.app/en/index-corporate-one-page",
+      "es-MX": "https://www.transoceansystems.com/index-corporate-one-page",
+      "en-US": "https://www.transoceansystems.com/en/index-corporate-one-page",
     },
   },
 };

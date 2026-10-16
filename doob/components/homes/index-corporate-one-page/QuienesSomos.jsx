@@ -57,7 +57,7 @@ export default function QuienesSomos() {
             >
               <h2 className="title w-600 mb--20">Quiénes Somos</h2>
               <p className="description b1" style={{ maxWidth: "800px", margin: "0 auto", whiteSpace: "pre-line" }}>
-                Transtek & M7 es una firma especializada en inteligencia estratégica, gestión de riesgos sistémicos y protección de infraestructura crítica para instituciones que operan en entornos de alta complejidad y alto impacto.
+                Transocean Systems & M7 es una firma especializada en inteligencia estratégica, gestión de riesgos sistémicos y protección de infraestructura crítica para instituciones que operan en entornos de alta complejidad y alto impacto.
 
                 No somos una empresa de seguridad privada.
                 Somos un órgano de análisis, anticipación y protección estratégica para decisores e instituciones cuya falla tendría consecuencias nacionales, sanitarias, económicas o políticas.

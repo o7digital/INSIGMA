@@ -1,13 +1,13 @@
 import React from "react";
 
 export const metadata = {
-  title: "Aviso de Privacidad | TRANSTEK",
+  title: "Aviso de Privacidad | Transocean Systems",
   description: "Aviso de privacidad y protección de datos personales",
   alternates: {
-    canonical: "https://transtek.vercel.app/privacy-policy",
+    canonical: "https://www.transoceansystems.com/privacy-policy",
     languages: {
-      "es-MX": "https://transtek.vercel.app/privacy-policy",
-      "en-US": "https://transtek.vercel.app/en/privacy-policy",
+      "es-MX": "https://www.transoceansystems.com/privacy-policy",
+      "en-US": "https://www.transoceansystems.com/en/privacy-policy",
     },
   },
 };
@@ -79,8 +79,8 @@ export default function PrivacyPolicy() {
       <p className="mb-4">
         Cualquier cambio al presente Aviso de Privacidad será publicado en
         nuestro sitio web{" "}
-        <a href="https://transtek.vercel.app" className="text-blue-600">
-          https://transtek.vercel.app
+        <a href="https://www.transoceansystems.com" className="text-blue-600">
+          https://www.transoceansystems.com
         </a>
         .
       </p>

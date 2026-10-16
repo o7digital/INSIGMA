@@ -1,13 +1,13 @@
 import BackToTop from "@/components/common/BackToTop";
 
 export const metadata = {
-  title: "TRANSTEK | Multidimensional Strategic Intelligence",
+  title: "Transocean Systems | Multidimensional Strategic Intelligence",
   description: "Specialized consulting in multidimensional intelligence",
   alternates: {
-    canonical: "https://transtek.vercel.app/en",
+    canonical: "https://www.transoceansystems.com/en",
     languages: {
-      "es-MX": "https://transtek.vercel.app",
-      "en-US": "https://transtek.vercel.app/en",
+      "es-MX": "https://www.transoceansystems.com",
+      "en-US": "https://www.transoceansystems.com/en",
     },
   },
 };

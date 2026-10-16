@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://transteck.vercel.app/sitemap.xml
+Sitemap: https://www.transoceansystems.com/sitemap.xml
 
 # Disallow admin and private pages
 Disallow: /api/

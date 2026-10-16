@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://transtek.vercel.app';
+  const baseUrl = 'https://www.transoceansystems.com';
   
   return [
     {
