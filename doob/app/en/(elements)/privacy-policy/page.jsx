@@ -1,13 +1,14 @@
 import React from "react";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Privacy Policy | Transocean Systems",
   description: "Privacy policy and personal data protection",
   alternates: {
     canonical: "https://www.transoceansystems.com/en/privacy-policy",
     languages: {
       "es-MX": "https://www.transoceansystems.com/privacy-policy",
-      "en-US": "https://www.transoceansystems.com/en/privacy-policy",
+      "en": "https://www.transoceansystems.com/en/privacy-policy",
     },
   },
 };

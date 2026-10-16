@@ -1,5 +1,8 @@
-import HomeEN from "./index-corporate-one-page/page";
+import Home from "./index-corporate-one-page/page";
+import { homeMetadata } from "@/lib/seo";
 
-export default function MainPageEN() {
-  return <HomeEN />;
+export const metadata = homeMetadata("en");
+
+export default function Page() {
+  return <Home />;
 }

@@ -1,22 +1,20 @@
-import BackToTop from "@/components/common/BackToTop";
+import "@/public/assets/scss/main.scss";
+import "react-modal-video/scss/modal-video.scss";
+import "photoswipe/dist/photoswipe.css";
+import SiteEffects from "@/components/layouts/SiteEffects";
+import { baseMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Transocean Systems | Multidimensional Strategic Intelligence",
-  description: "Specialized consulting in multidimensional intelligence",
-  alternates: {
-    canonical: "https://www.transoceansystems.com/en",
-    languages: {
-      "es-MX": "https://www.transoceansystems.com",
-      "en-US": "https://www.transoceansystems.com/en",
-    },
-  },
-};
+export const metadata = baseMetadata;
 
-export default function EnglishLayout({ children }) {
+export default function RootLayout({ children }) {
   return (
-    <>
-      {children}
-      <BackToTop />
-    </>
+    <html lang="en">
+      <head>
+        <meta name="theme-color" content="#1A4D7C" />
+      </head>
+      <body className="active-dark-mode">
+        <SiteEffects>{children}</SiteEffects>
+      </body>
+    </html>
   );
 }

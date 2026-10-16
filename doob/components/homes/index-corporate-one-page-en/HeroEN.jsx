@@ -6,6 +6,7 @@ const images = [
   "/transteck/hero1.webp",
   "/transteck/hero2.webp",
   "/transteck/hero3.webp",
+  "/transteck/transocean-network-monitoring.webp",
 ];
 
 export default function HeroEN() {
@@ -20,7 +21,8 @@ export default function HeroEN() {
   }, []);
 
   return (
-    <section id="home" className="hero-area">
+    <section className="hero-area">
+      <h1 className="visually-hidden">Transocean Systems — Strategic intelligence and risk management in Mexico</h1>
       <div className="hero-slide" style={{ position: "relative", width: "100%", height: "80vh" }}>
         <Image
           src={images[i]}

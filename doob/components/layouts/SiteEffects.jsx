@@ -1,15 +1,12 @@
 "use client";
 import { useEffect } from "react";
-import "../public/assets/scss/main.scss";
-import "react-modal-video/scss/modal-video.scss";
-import "photoswipe/dist/photoswipe.css";
 import { usePathname } from "next/navigation";
 import sal from "sal.js";
 import BackToTop from "@/components/common/BackToTop";
 import MobileMenu from "@/components/headers/MobileMenu";
 import { closeMenu } from "@/utlis/toggleMenu";
 
-export default function RootLayout({ children }) {
+export default function SiteEffects({ children }) {
   useEffect(() => {
     if (typeof window !== "undefined") {
       // Import the script only on the client side
@@ -66,16 +63,10 @@ export default function RootLayout({ children }) {
   }, []);
 
   return (
-    <html lang="es">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#1A4D7C" />
-      </head>
-      <body className="active-dark-mode">
-        <main className="page-wrapper">{children}</main>
-        <MobileMenu />
-        <BackToTop />
-      </body>
-    </html>
+    <>
+      <main className="page-wrapper">{children}</main>
+      <MobileMenu />
+      <BackToTop />
+    </>
   );
 }

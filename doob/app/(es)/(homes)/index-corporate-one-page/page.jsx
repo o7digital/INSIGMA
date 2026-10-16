@@ -1,3 +1,5 @@
+import { homeMetadata } from "@/lib/seo";
+import OrganizationSchema from "@/components/common/OrganizationSchema";
 import Copywrite from "@/components/footers/Copywrite";
 import Header5 from "@/components/headers/Header5";
 import Contact from "@/components/othersPages/Contact";
@@ -11,60 +13,12 @@ import CasosExito from "@/components/homes/index-corporate-one-page/CasosExito";
 import CallToAction from "@/components/homes/index-corporate-one-page/CallToAction";
 import React from "react";
 
-export const metadata = {
-  metadataBase: new URL("https://www.transoceansystems.com"),
-  title: "Transocean Systems | Inteligencia Estratégica Multidimensional",
-  description:
-    "Consultoría especializada en inteligencia multidimensional: prevenir riesgos, amenazas y vulnerabilidades en sectores corporativo, industrial y gubernamental.",
-  keywords: "inteligencia estratégica, análisis de riesgos, consultoría seguridad, gestión crisis, protección activos, México",
-  authors: [{ name: "Transocean Systems" }],
-  creator: "Transocean Systems",
-  publisher: "Transocean Systems",
-  openGraph: {
-    title: "Transocean Systems | Sistema Integral de Seguridad Corporativa",
-    description: "Consultoría especializada en inteligencia estratégica multidimensional",
-    url: "https://www.transoceansystems.com/index-corporate-one-page",
-    siteName: "Transocean Systems",
-    locale: "es_MX",
-    type: "website",
-    images: [
-      {
-        url: "/transteck/hero1.webp",
-        width: 1920,
-        height: 1080,
-        alt: "Transocean Systems - Sistema Integral de Seguridad Corporativa",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Transocean Systems | Inteligencia Estratégica",
-    description: "Consultoría especializada en inteligencia multidimensional",
-    images: ["/transteck/hero1.webp"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  alternates: {
-    canonical: "https://www.transoceansystems.com/index-corporate-one-page",
-    languages: {
-      "es-MX": "https://www.transoceansystems.com/index-corporate-one-page",
-      "en-US": "https://www.transoceansystems.com/en/index-corporate-one-page",
-    },
-  },
-};
+export const metadata = homeMetadata("es");
 
 export default function Page() {
   return (
     <>
+      <OrganizationSchema />
       <Header5 />
       <div>
         <div className="rainbow-gradient-circle" />

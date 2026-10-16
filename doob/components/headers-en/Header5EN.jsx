@@ -46,7 +46,7 @@ const Header5EN = () => {
           {/* Logo */}
           <div className="col-lg-3 col-md-6 col-6">
             <div className="logo">
-              <Link href="/en/index-corporate-one-page">
+              <Link href="/en">
                 <span style={{ fontSize: "20px", fontWeight: 600, lineHeight: 1.2 }}>Transocean Systems</span>
               </Link>
             </div>

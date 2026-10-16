@@ -1,15 +1,5 @@
 User-agent: *
 Allow: /
-
-# Sitemaps
-Sitemap: https://www.transoceansystems.com/sitemap.xml
-
-# Disallow admin and private pages
 Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
 
-# Allow all images
-Allow: /assets/
-Allow: /transteck/
-Allow: /images/
+Sitemap: https://www.transoceansystems.com/sitemap.xml
